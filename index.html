@@ -1,28 +1,2230 @@
+
+
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Styled Hello World</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            color: #4CAF50;
-            font-size: 3em;
-        }
-        p {
-            color: #333;
-            font-size: 1.2em;
-        }
-    </style>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		
+
+
+
+
+
+
+
+
+
+
+		<meta name="format-detection" content="telephone=no, address=no, email=no" />
+		<meta property="og:type" content="website"/>
+		<meta property="og:title" content="한국해양병재학교"/>
+		<meta property="og:url" content="https://www.kmou.ac.kr"/>
+		<meta property="og:image" content="https://www.kmou.ac.kr/images/web/common/ico/kakao.png"/>
+		<meta property="og:description" content="양병재병1신"/>
+		<link rel="apple-touch-icon" sizes="57x57" href="/images/web/common/ico/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/images/web/common/ico/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/images/web/common/ico/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/images/web/common/ico/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/images/web/common/ico/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/images/web/common/ico/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/images/web/common/ico/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/images/web/common/ico/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/web/common/ico/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192" href="/images/web/common/ico/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/web/common/ico/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/images/web/common/ico/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/web/common/ico/favicon-16x16.png">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/images/web/common/ico/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+		<title>국립한국해양대학교</title>
+		<meta name="keywords" content="국립한국해양대학교">
+		<meta name="description" content="국립한국해양대학교 홈페이지에 오신 것을 환영합니다. ">
+		<!-- [if lt IE 9]>
+		        	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		        <![endif] -->
+		<link rel="stylesheet" href="/css/web/kmou/main.css?v=2" media="all">
+		<link rel="stylesheet" href="/css/web/kmou/swiper.min.css" media="all">
+		<link rel="stylesheet" href="/css/web/kmou/top_pop.css" media="all"> <!-- 180302 추가 -->
+		<script type="text/javascript" src="/js/web/kmou/jquery.min.1.11.0.js"></script>
+		<script type="text/javascript" src="/js/web/kmou/common.js?v=240510"></script>
+		<script type="text/javascript" src="/js/web/kmou/common-scroll.js"></script>
+		<script type="text/javascript" src="/js/web/kmou/swiper.min.js"></script>
+		<script type="text/javascript" src="/js/web/kmou/main.js?v=3"></script>
+		<script type="text/javascript" src="/js/web/kmou/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="/js/web/kmou/jquery.slides.min.js"></script>
+		<script type="text/javascript" src="/js/web/kmou/top_pop.js"></script><!-- 180302 추가 -->				
+        
+
+
+
+
+
+<link href="/css/web/common/common_header.css" rel="stylesheet">
+<link href="/css/web/common/common_footer.css" rel="stylesheet">
+
+<link href="/css/web/common/common_footer_campusMainLink.css" rel="stylesheet">
+
+<link href="/css/web/common/common_style.css" rel="stylesheet">
+<link href="/css/com/jquery/jquery-ui.min.css" rel="stylesheet" />
+<script type="text/javascript" src="/js/web/common/common_script.js"></script>
+
+
+
+
+
+
+
+
+
+
+ 
+   
+
+	
+  		<script>
+  		$(function(){
+  			//$("a[href*='http://navi.kmou.ac.kr']").attr("target","_self");
+  			//$("a[href*='http://navi.kmou.ac.kr']").attr("href","javascript:alert('서비스 준비중입니다')");
+			
+			//협정서조회
+			$("a[href*='http://wtis2.kmou.ac.kr']").attr("target","_self");
+			$("a[href*='http://wtis2.kmou.ac.kr']").attr("onclick","window.open(this.href,'',''); return false;");
+  			$("a[href*='http://wtis2.kmou.ac.kr']").attr("href","http://wtis.kmou.ac.kr/mi/install_setup/install.jsp?isengage=A02110402");
+
+			//수강편람
+			$("a[href*='http://wtis3.kmou.ac.kr']").attr("href","http://wtis.kmou.ac.kr/mi/install_setup/install.jsp?isengage=A01040406");
+  		})
+  		
+  		$(function () {
+			noOpenerReferrer("Y","Y","");
+		});
+</script>
+
+
+
+
+
+<script type="text/javascript" src="/js/loggerTackingScript.js"></script>
+<noscript><img src="http://weblog.hhu.ac.kr/tracker.tsp?u=1001&js=N" width=0 height=0/ alt="이미지 없음"></noscript>
+ 
+
 </head>
-<body>
-    <h1>Hello World</h1>
-    <p>Welcome to my GitHub Pages site!</p>
-</body>
+	<body>
+		<!-- 바로가기 -->
+		<div id="skipArea"> <a href="#gnb" title="메인메뉴 바로가기">메인메뉴 바로가기</a> <a href="#container" title="본문으로 바로가기">본문으로 바로가기</a> </div>
+		<!-- //바로가기 -->
+		<div id="wrap"> 
+		
+	<!-- 상단팝업 180302 추가 -->
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+		<div class="div-wrap top-wide-popups" id="toppop">
+			<div class='tpop-topwide'>
+				<div class='tpop-list-wrap'>
+					<ul>
+					
+					
+						
+							
+							
+								<li id='wtop66825' class='wpop-item'><a href="https://cts.kmou.ac.kr/ko/program/application/view/2913" title="명사 초청 특강(2차) 개최 안내 " >
+										<img src="/upload/kmou/pm/_53618909-d02f-4ef2-82ee-6ca5416dd9e21729482311624.png" alt="" />
+								</a></li>
+							
+																					
+																				
+					
+					
+						
+							
+								<li id='wtop66822' class='wpop-item'><img src="/upload/kmou/pm/_43d392a0-8478-42d9-9b84-62a4076fe0e41729144100602.png" usemap='#kmou_20241017_03' alt="2024학년도 제2학기 중간 강의평가 실시 안내"/>
+								<map name="kmou_20241017_03"><area target="_parent" alt="평가바로가기" title="평가바로가기" href="https://tis.kmou.ac.kr" coords="216,94,311,111" shape="rect" /><area target="_parent" alt="모바일 앱 메뉴얼" title="모바일 앱 메뉴얼" href="/common/nttFileDownload.do?fileKey=08bfa1165fadc346445183cf73420ce4" coords="320,95,455,110" shape="rect" /><area target="_parent" alt="공지사항" title="공지사항" href="https://www.kmou.ac.kr/kmou/na/ntt/selectNttInfo.do?nttSn=10351426&mi=2032&currPage=1" coords="1,2,458,85" shape="rect" /></map>
+								</li>
+							
+							
+																					
+																				
+					
+																				
+					
+					
+						
+							
+							
+								<li id='wtop66783' class='wpop-item'><a href="http://ksurv.kr/Z0M6PD0-Pg" title="2025 교양 교육과정 편성 소통의 장 설문조사 실시(연장) " >
+										<img src="/upload/kmou/pm/_4843106f-84de-4899-873b-3493ba5187271729573868380.png" alt="" />
+								</a></li>
+							
+																					
+																				
+					
+					
+						
+							
+							
+								<li id='wtop66705' class='wpop-item'><a href="https://cts.kmou.ac.kr/ko/diagnosis/essential" title="2024 KMOU 재학생 핵심역량 진단 및 전공능력 진단 " >
+										<img src="/upload/kmou/pm/_03b59bd2-9d8a-4bbc-999e-eb4b725f3d811727166806526.png" alt="" />
+								</a></li>
+							
+																					
+																				
+					
+					
+						
+							
+								<li id='wtop66704' class='wpop-item'><img src="/upload/kmou/pm/_314f1086-fee3-4953-b5a7-fcc7e80d37401727156882778.png" usemap='#kmou_20240924_1' alt="2025 정부초청 외국인 학부 장학생 모집 공고 안내"/>
+								<map name="#kmou_20240924_1"><area target="_blank" alt="모집요강 등 안내사항" title="모집요강 등 안내사항" href="https://www.kmou.ac.kr/global/na/ntt/selectNttInfo.do?nttSn=10350524&mi=4448&currPage=1" coords="44,87,220,116" shape="rect" /><area target="_blank" alt="스터디인코리아 홈페이지" title="스터디인코리아 홈페이지" href="https://www.studyinkorea.go.kr/ko/scholarship/Gks1NoticeDetail.do?nttId=4233" coords="232,89,419,115" shape="rect" /></map>
+								</li>
+							
+							
+																					
+																				
+					
+					
+						
+							
+							
+								<li id='wtop66344' class='wpop-item'><a href="https://www.kmou.ac.kr/gfund/cm/cntnts/cntntsView.do?mi=5687&cntntsId=7643" title="도서관 증축 및 리모델링 모금 사업 홍보 " >
+										<img src="/upload/kmou/pm/_996b9545-893d-413a-b3b3-18477da5a8231720664012805.jpg" alt="" />
+								</a></li>
+							
+																					
+																				
+					
+					
+						
+							
+							
+								<li id='wtop66341' class='wpop-item'><a href="https://www.kmou.ac.kr/kmou/na/ntt/selectNttInfo.do?nttSn=10350350&mi=2032&currPage=1" title="2024학년도 제2학기 학부생 복학 및 휴학 신청 안내 " >
+										<img src="/upload/kmou/pm/_88a6d117-f6fe-47fa-ad4a-d72b49d2bdbc1726712590982.png" alt="" />
+								</a></li>
+							
+																					
+																				
+					
+																				
+					
+																				
+					
+																				
+					
+																				
+					
+																				
+					
+																				
+					
+																				
+					
+																				
+					
+																				
+					
+																				
+					
+																				
+					
+																				
+					
+																				
+					
+																				
+					
+																				
+					
+																				
+					
+					</ul>
+				</div>
+				<div class="top-wpop-ctrlbtns">
+					<button type="button" class="btn-prev" title="이전 팝업보기"><span>이전 팝업보기</span></button>
+					<button type="button" class="btn-next" title="다음 팝업보기"><span>다음 팝업보기</span></button>
+				</div>
+				<div class="top-wpop-btns">
+					<div class="wpop-go-btns">
+						<button type="button" class="btn-play" title="팝업 재생"><span>팝업 재생</span></button>
+						<button  type="button" class="btn-stop" title="팝업 일시정지"><span>팝업 일시정지</span></button>
+						<span class="nicons"></span> 
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			var _thisSite = {}, _thisPage = {initAction:[],resizeAction:[],scrollAction:[]};
+			var _site_path = "/kor", _site_type = "R", _site_url = "/kor"; _site_code = "kor";
+			var _page_url = "/kor/", _page_vars = "", _pvars = "";
+			var _page_code = "main";var _isLowBr_ = false,_isMobile_ = false;
+			var editor_type = "CrossEditor";
+		</script>
+
+		<script>
+			$(document).ready(function(){
+				//팝업 스크립트 초기화
+				//twidepop.setBans();
+				twidepop = new twidePopzone({
+						wrap:$("#toppop")
+						,boxwrap:$("#toppop .tpop-topwide")
+						,listwrap:$("#toppop .tpop-list-wrap")
+						,item_selector:".wpop-item"
+						,numbtns:$("#toppop .nicons")
+						,btnStop:$("#toppop .btn-stop")			,btnPlay:$("#toppop .btn-play")
+						,btnPrev:$("#toppop .btn-prev")			,btnNext:$("#toppop .btn-next")
+						
+				});
+				if(_page_code=="main"){// && $(".isMainPage").length>0
+				//팝업열기
+					openTopWidePopups();
+				}else{
+					closeTopWidePopups();
+				}
+			//
+			});
+		</script>
+
+		<script>
+				$(document).ready(function(){	
+					var wpopNums = $("#toppop .wpop-item").length;
+					$(".btn-popups .pop-num").html(wpopNums);
+					$(".fsitelink").each(function(){
+						$(".tit a",this).click(function(){
+							var gr = $($(this).parents(".fsitelink").get(0));
+							var toH = $("ul",gr).outerHeight();
+							var chkContW = $("body").width();
+							var fsiteWr = $(".fsitelink-wr");
+							if(gr.hasClass("is-open")){
+								closeFsiteLink();
+							}
+							else {
+								openFsiteLink();
+							}
+							function openFsiteLink(){
+								gr.addClass("is-open");
+								$(".fsitelink-cate-box",gr).css({"height":toH});
+								if(chkContW <=699){
+									$(".fsitelink", fsiteWr).removeClass("is-open");
+									$(".fsitelink-cate-box",fsiteWr).css({"height":0});
+									gr.addClass("is-open");
+									$(".fsitelink-cate-box",gr).css({"height":toH});
+								} 
+							}
+							function closeFsiteLink(){
+								gr.removeClass("is-open");
+								$(".fsitelink-cate-box",gr).css({"height":0});
+							}
+
+							return false;
+						});
+					});
+				});
+			</script>
+
+			<script >
+
+			$(document).ready(function(){			
+				try{	resetFormStyle();}catch(e){	}
+				//레이어팝업 포커스 오류 보정
+				//접근성 필수일경우 닫기 버튼으로 포커스 초기화 되지 않으므로 문제생길 수 있음.
+				try{	if(parent.msgPopArr.length>0){	$("input,select,a,button").not("[type='text']").eq(0).focus();		}			}catch(e){	}
+				try{$(".calendar").datepicker({});		}catch(e){	}
+			});
+			</script>
+		
+		<!-- //상단팝업 180302 추가 -->		
+		
+		    <!-- header -->
+			
+
+
+
+
+
+
+    <div class="area_header">
+        <div class="bg_header_1" style="height: 0px;"></div>
+        <div class="box_header">
+            <header id="header">
+                <!-- 유틸메뉴 -->
+                <div id="topWrap" class="topWrap">
+                    <ul class="top_menu_l">
+                        <li><a class="btnAdmiss" title="HOME" href="/kmou/main.do">HOME</a></li>
+                    </ul>
+                                    <!-- 언어 -->
+                <div class="lang">
+                    <button title="English" type="button" onclick="location.href='/english/main.do'">English</button>
+                    
+                </div>
+                <!-- //언어 --> 
+                    
+                    
+                    <ul class="top_menu_r">
+						<li><a title="홈" href="/kmou/main.do">홈</a></li>
+
+						
+							<li><a href="https://www.kmou.ac.kr/kmou/lo/login/loginPage.do?mi=3510" title="로그인">로그인</a></li>
+
+						
+						
+						<li class="publicMobileView"><a href="/english/main.do" title="English">English</a></li>
+<li class="publicMobileView"><a href="/mobile/index.html" title="주요정보 바로가기">주요정보 바로가기</a></li>
+<li><a href="/kmou/sitemap.do?mi=3517" title="사이트맵">사이트맵</a></li>
+
+                    </ul>
+                </div>
+  				<!-- 상단팝업버튼 180302 추가 -->
+                
+  					
+						
+						
+						
+					
+						
+						
+						
+					
+						
+					
+						
+						
+						
+					
+						
+						
+						
+					
+						
+						
+						
+					
+						
+						
+						
+					
+						
+						
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+
+ 				
+					
+					<button type="button" class="gbt btn-popups over" onclick="toggleTopWidePopups();return false;" title="팝업존(확대)"><span class="txt">팝업존</span></button>
+					
+					
+				 
+                <div class="box_header_1">
+					<!-- 웹로고 -->
+					<h1 class="logo"><a href="/kmou/main.do" title="한국해양대학교"><img src="/images/web/kmou/common/logo3.png" alt="한국해양대학교"></a></h1>
+					<!-- //웹로고 -->
+                </div>
+                <!-- //유틸메뉴 -->
+                <div class="area_gnb"> <a title="메인메뉴바로가기 스킵메뉴" class="hid"></a>
+                    <nav id="gnb">
+                        <h1 class="gnb_tit"><a id="mGnb" href="ul_gnb_1" title="한국해양대학교 GNB">한국해양대학교 GNB</a></h1>
+                        <ul id="ul_gnb_1">
+                            <li class="others"><a title="탑메뉴" href="#ul_gnb_1"><span>탑메뉴</span></a>
+                            <div id="mtitle"><a title="메뉴닫기">메뉴닫기</a></div>
+                                <div class="box_gnb_1 bg01" style="visibility: visible; max-height: 0px;">
+                                    <ul class="ul_gnb_2 clearfix">
+                                        <li><a title="홈" href="/kmou/main.do">홈</a></li>
+
+										
+											<li><a href="https://www.kmou.ac.kr/kmou/lo/login/loginPage.do?mi=3510" title="로그인">로그인</a></li>
+
+										
+										
+										<li class="publicMobileView"><a href="/english/main.do" title="English">English</a></li>
+<li class="publicMobileView"><a href="/mobile/index.html" title="주요정보 바로가기">주요정보 바로가기</a></li>
+<li><a href="/kmou/sitemap.do?mi=3517" title="사이트맵">사이트맵</a></li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <!--START-->
+							<li class="firstmn"><a href="/kmou/cm/cntnts/cntntsView.do?mi=18&cntntsId=3498#sideContent" title="대학소개"><span>대학소개</span></a>
+							<div class="box_gnb_1 bg01" style="visibility: visible; max-height: 0px;">
+							<h2>대학소개</h2>
+								<ul class="ul_gnb_2 firstGnb clearfix">
+									<li class="row"><a href="/kmou/cm/cntnts/cntntsView.do?mi=18&cntntsId=3498#sideContent" title="열린총장실">열린총장실</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=18&cntntsId=3498#sideContent" title="인사말">인사말</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=16&cntntsId=3501#sideContent" title="약력">약력</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=22&cntntsId=303#sideContent" title="역대총장">역대총장</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/na/ntt/selectNttList.do?mi=4546&bbsId=10002062#sideContent" title="대학발전제안">대학발전제안</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=4546&bbsId=10002062#sideContent" title="KMOU Open Innovation">KMOU Open Innovation</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4547&cntntsId=304#sideContent" title="해소창(해양대소통창구)">해소창(해양대소통창구)</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/cm/cntnts/cntntsView.do?mi=20&cntntsId=5420#sideContent" title="역사·비전">역사·비전</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=20&cntntsId=5420#sideContent" title="대학연혁">대학연혁</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=21&amp;bbsId=10491&amp;srch_aditCol1=2024년" title="역사사진">역사사진</a></li>
+										<li><a href="https://www.kmou.ac.kr/kmou_75.html" target="_blank" title="실습선 75년사(새창)">실습선 75년사</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=23&cntntsId=311#sideContent" title="교육 목적·목표 및 인재상">교육 목적·목표 및 인재상</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=24&cntntsId=312#sideContent" title="비전·전략 및 특성화 분야">비전·전략 및 특성화 분야</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1375&cntntsId=315#sideContent" title="대학상징&amp;로고&amp;마스코트">대학상징&amp;로고&amp;마스코트</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1376&cntntsId=316#sideContent" title="대학교가">대학교가</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1370&cntntsId=314#sideContent" title="대학서비스헌장">대학서비스헌장</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/cm/cntnts/cntntsView.do?mi=1408&cntntsId=5141#sideContent" title="현황">현황</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1408&cntntsId=5141#sideContent" title="조직">조직</a></li>
+										<li><a href="/kmou/ad/site/view.do?mi=3513#sideContent" title="교내주요홈페이지">교내주요홈페이지</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1377&cntntsId=317#sideContent" title="대학현황">대학현황</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1378&cntntsId=5263#sideContent" title="대학통계">대학통계</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=1514&bbsId=10001046#sideContent" title="대학규정">대학규정</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4512&cntntsId=6461#sideContent" title="대학요람">대학요람</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=4414&bbsId=10001482#sideContent" title="대학(원)평가">대학(원)평가</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=4474&bbsId=10001702#sideContent" title="교육수요자 만족도">교육수요자 만족도</a></li>
+										<li><a href="/kmou/ad/ep/list.do?mi=1434#sideContent" title="교직원 검색">교직원 검색</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1435&cntntsId=329#sideContent" title="교내전화번호">교내전화번호</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4470&cntntsId=3757#sideContent" title="현업공무원 지정 및 초과근무수당">현업공무원 지정 및 초과근무수당</a></li>
+									</ul>
+									<li class="row common_unique_Id_1451 common_none_important_height_px_294"><a href="/kmou/na/ntt/selectNttList.do?mi=1452&bbsId=10374#sideContent" title="홍보센터">홍보센터</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=1452&bbsId=10374#sideContent" title="KMOU NEWS">KMOU NEWS</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=3653&bbsId=10000121#sideContent" title="KMOU EVENTS">KMOU EVENTS</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=1453&bbsId=11873#sideContent" title="KMOU PEOPLE">KMOU PEOPLE</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=1455&bbsId=10000124#sideContent" title="보도자료/KMOU PRESS">보도자료/KMOU PRESS</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5209&cntntsId=5780#sideContent" title="영화·드라마 속 KMOU">영화·드라마 속 KMOU</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=1456&bbsId=10000401#sideContent" title="웹진 아치누리">웹진 아치누리</a></li>
+										<li><a href="/kmou/book/211/view.do?mi=1457#sideContent" title="소식지 아치나래">소식지 아치나래</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1459&cntntsId=825#sideContent" title="홍보영상">홍보영상</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/na/ntt/selectNttList.do?mi=1416&bbsId=10490#sideContent" title="캠퍼스안내">캠퍼스안내</a>
+									<ul class="ul_gnb_3">
+										<li><a href="javascript:flashMapAction();" title="캠퍼스맵">캠퍼스맵</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1414&cntntsId=321#sideContent" title="캠퍼스투어">캠퍼스투어</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5165&cntntsId=5604#sideContent" title="서부산융합캠퍼스">서부산융합캠퍼스</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=1416&bbsId=10490#sideContent" title="풍경사진">풍경사진</a></li>
+										<li><a href="https://www.kmou.ac.kr/kmou/cm/cntnts/cntntsView.do?mi=1415&amp;cntntsId=3434" title="VR로 탐방하기">VR로 탐방하기</a></li>
+										<li><a href="/kmou/lm/location/view.do?mi=1418" title="오시는길">오시는길</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/cm/cntnts/cntntsView.do?mi=1519&cntntsId=829#sideContent" target="_blank" title="대외협력(새창)">대외협력</a>
+									<ul class="ul_gnb_3">
+										<li><a href="https://www.kmou.ac.kr/gfund/main.do" target="_blank" title="발전기금(새창)">발전기금</a></li>
+										<li><a href="https://tis.kmou.ac.kr/nxui/index.html?ui=simple#A02110402" target="_blank" title="협정서 조회(새창)">협정서 조회</a></li>
+										<li><a href="https://www.kmou.ac.kr/gfund/cm/cntnts/cntntsView.do?mi=5154&amp;cntntsId=5500" target="_blank" title="후원의 집 현황(새창)">후원의 집 현황</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1519&cntntsId=829#sideContent" title="협정기관(병원·호텔·기타)">협정기관(병원·호텔·기타)</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/cm/cntnts/cntntsView.do?mi=1496&cntntsId=827#sideContent" title="국제교류">국제교류</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1496&cntntsId=827#sideContent" title="국외협정체결 현황">국외협정체결 현황</a></li>
+											</ul>
+										</li>
+									</ul>
+							</div>
+								</li>
+							<li><a href="https://www.kmou.ac.kr/ipsi/" target="_blank" title="입학·장학·취업(새창)"><span>입학·장학·취업</span></a>
+							<div class="box_gnb_1 bg02" style="visibility: visible; max-height: 0px;">
+							<h2>입학·장학·취업</h2>
+								<ul class="ul_gnb_2 clearfix">
+									<li class="row"><a href="https://www.kmou.ac.kr/ipsi/" target="_blank" title="입학(새창)">입학</a>
+									<ul class="ul_gnb_3">
+									<li class="publicMobileView"><a href="https://www.kmou.ac.kr/ipsi/" target="_blank" title="입학(새창)">입학</a>
+										<li><a href="/ipsi/na/ntt/selectNttList.do?mi=3299&amp;bbsId=10319" target="_blank" title="공지사항(새창)">공지사항</a></li>
+										<li><a href="/ipsi/na/ntt/selectNttList.do?mi=3310&amp;bbsId=10319" target="_blank" title="수시모집(새창)">수시모집</a></li>
+										<li><a href="/ipsi/na/ntt/selectNttList.do?mi=3326&amp;bbsId=10319" target="_blank" title="정시모집(새창)">정시모집</a></li>
+										<li><a href="/ipsi/cm/cntnts/cntntsView.do?mi=3333&amp;cntntsId=394" target="_blank" title="학생부종합전형(새창)">학생부종합전형</a></li>
+										<li><a href="/ipsi/na/ntt/selectNttList.do?mi=3339&amp;bbsId=10319" target="_blank" title="편입학(새창)">편입학</a></li>
+										<li><a href="/ipsi/cm/cntnts/cntntsView.do?mi=3344&amp;cntntsId=396" target="_blank" title="International Students(새창)">International Students</a></li>
+										<li><a href="/ipsi/cm/cntnts/cntntsView.do?mi=3346&amp;cntntsId=398" target="_blank" title="학과소개(새창)">학과소개</a></li>
+										<li><a href="/ipsi/cm/cntnts/cntntsView.do?mi=3349&amp;cntntsId=413" target="_blank" title="입학홍보·상담(새창)">입학홍보·상담</a></li>
+										<li><a href="/ipsi/cm/cntnts/cntntsView.do?mi=3359&amp;cntntsId=399" target="_blank" title="대학생활(새창)">대학생활</a></li>
+										<li><a href="https://www.kmou.ac.kr/graduate/na/ntt/selectNttList.do?mi=2227&amp;bbsId=10447" target="_blank" title="대학원 입학(새창)">대학원 입학</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/cm/cntnts/cntntsView.do?mi=1981&cntntsId=380#sideContent" title="장학안내">장학안내</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1981&cntntsId=380#sideContent" title="교내장학금">교내장학금</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1982&cntntsId=381#sideContent" title="교외장학금">교외장학금</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1983&cntntsId=382#sideContent" title="국가장학금">국가장학금</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5437&cntntsId=6560#sideContent" title="국가근로 및 멘토링 장학금">국가근로 및 멘토링 장학금</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1984&cntntsId=383#sideContent" title="대학원 장학금">대학원 장학금</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5692&cntntsId=986#sideContent" title="학자금 대출제도">학자금 대출제도</a></li>
+									</ul>
+									<li class="row"><a href="https://www.kmou.ac.kr/myhaemi/main.do" target="_blank" title="취·창업(새창)">취·창업</a>
+									<ul class="ul_gnb_3">
+										<li><a href="https://www.kmou.ac.kr/myhaemi/main.do" target="_blank" title="학생성장지원실(새창)">학생성장지원실</a></li>
+										<li><a href="https://www.kmou.ac.kr/myhaemi/na/ntt/selectNttList.do?mi=5386&amp;bbsId=10002387" target="_blank" title="채용정보(새창)">채용정보</a></li>
+										<li><a href="https://www.kmou.ac.kr/myhaemi/na/ntt/selectNttList.do?mi=5387&amp;bbsId=10003683" target="_blank" title="창업정보(새창)">창업정보</a></li>
+										<li><a href="https://www.kmou.ac.kr/myhaemi/na/ntt/selectNttList.do?mi=5388&amp;bbsId=10002388" target="_blank" title="추천채용관리(새창)">추천채용관리</a></li>
+											</ul>
+										</li>
+									</ul>
+							</div>
+								</li>
+							<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1552&cntntsId=334#sideContent" title="대학·대학원"><span>대학·대학원</span></a>
+							<div class="box_gnb_1 bg03" style="visibility: visible; max-height: 0px;">
+							<h2>대학·대학원</h2>
+								<ul class="ul_gnb_2 clearfix">
+									<li class="row"><a href="/kmou/cm/cntnts/cntntsView.do?mi=1552&cntntsId=334#sideContent" title="해사대학">해사대학</a>
+									<ul class="ul_gnb_3">
+									<li class="publicMobileView"><a href="/kmou/cm/cntnts/cntntsView.do?mi=1552&cntntsId=334#sideContent" title="해사대학">해사대학</a>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4533&cntntsId=4077#sideContent" title="항해융합학부(2021~)">항해융합학부(2021~)</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4534&cntntsId=4076#sideContent" title="기관시스템공학부(2021~)">기관시스템공학부(2021~)</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1564&cntntsId=339#sideContent" title="해양경찰학부(2021~)">해양경찰학부(2021~)</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4772&cntntsId=4716#sideContent" title="해사인공지능·보안학부(2022~)">해사인공지능·보안학부(2022~)</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4773&cntntsId=4436#sideContent" title="2020이전 학부">2020이전 학부</a></li>
+										<li><a href="https://www.kmou.ac.kr/stc/main.do" title="해기교육원">해기교육원</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1584&cntntsId=345#sideContent" title="실습선">실습선</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5163&cntntsId=5580#sideContent" title="졸업생 기수별 활동기록(동영상)">졸업생 기수별 활동기록(동영상)</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/cm/cntnts/cntntsView.do?mi=4671&cntntsId=4336#sideContent" title="해양과학기술융합대학">해양과학기술융합대학</a>
+									<ul class="ul_gnb_3">
+									<li class="publicMobileView"><a href="/kmou/cm/cntnts/cntntsView.do?mi=4671&cntntsId=4336#sideContent" title="해양과학기술융합대학">해양과학기술융합대학</a>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4672&cntntsId=4337#sideContent" title="조선해양시스템 공학부">조선해양시스템 공학부</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5297&cntntsId=6120#sideContent" title="해양공학과">해양공학과</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5298&cntntsId=6121#sideContent" title="에너지자원공학과">에너지자원공학과</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4673&cntntsId=4338#sideContent" title="해양공간건축학부">해양공간건축학부</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4674&cntntsId=4339#sideContent" title="해양과학융합학부">해양과학융합학부</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1630&cntntsId=353#sideContent" title="해양스포츠과학과">해양스포츠과학과</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1860&cntntsId=355#sideContent" title="기계공학부">기계공학부</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1862&cntntsId=357#sideContent" title="전자전기정보공학부">전자전기정보공학부</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1863&cntntsId=358#sideContent" title="인공지능공학부">인공지능공학부</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4675&cntntsId=4340#sideContent" title="물류시스템공학과">물류시스템공학과</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5299&cntntsId=6122#sideContent" title="환경공학과">환경공학과</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5300&cntntsId=6123#sideContent" title="토목공학과">토목공학과</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1861&cntntsId=356#sideContent" title="해양신소재융합공학과">해양신소재융합공학과</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4861&cntntsId=4696#sideContent" title="(2020이전 학부)">(2020이전 학부)</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/cm/cntnts/cntntsView.do?mi=1885&cntntsId=365#sideContent" title="해양인문사회과학대학">해양인문사회과학대학</a>
+									<ul class="ul_gnb_3">
+									<li class="publicMobileView"><a href="/kmou/cm/cntnts/cntntsView.do?mi=1885&cntntsId=365#sideContent" title="해양인문사회과학대학">해양인문사회과학대학</a>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4676&cntntsId=6160#sideContent" title="해운경영학부">해운경영학부</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4677&cntntsId=6161#sideContent" title="해사법학부">해사법학부</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=4678&cntntsId=6180#sideContent" title="국제무역경제학부">국제무역경제학부</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5311&cntntsId=6181#sideContent" title="국제관계학과">국제관계학과</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5312&cntntsId=6162#sideContent" title="해양행정학과">해양행정학과</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5313&cntntsId=6163#sideContent" title="해양영어영문학과">해양영어영문학과</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5314&cntntsId=6182#sideContent" title="동아시아학과">동아시아학과</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1894&cntntsId=374#sideContent" title="교직과">교직과</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1895&cntntsId=375#sideContent" title="경제산업학부">경제산업학부</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1896&cntntsId=860#sideContent" title="법무비즈니스학부">법무비즈니스학부</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/cm/cntnts/cntntsView.do?mi=1909&cntntsId=377#sideContent" title="해양군사대학">해양군사대학</a>
+									<ul class="ul_gnb_3">
+									<li class="publicMobileView"><a href="/kmou/cm/cntnts/cntntsView.do?mi=1909&cntntsId=377#sideContent" title="해양군사대학">해양군사대학</a>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1910&cntntsId=378#sideContent" title="해양군사학부">해양군사학부</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1911&cntntsId=379#sideContent" title="해양군사학과">해양군사학과</a></li>
+									</ul>
+									<li class=" common_unique_Id_4139 common_none_important_height_px_366"><a href="/cle/main.do?mi=4139#sideContent" title="교양교육원">교양교육원</a>
+									<li class=""><a href="/graduate/main.do?mi=1939" target="_blank" title="일반대학원(새창)">일반대학원</a>
+									<li class=""><a href="/mis-graduate/main.do" target="_blank" title="해사산업대학원(새창)">해사산업대학원</a>
+									<li class=""><a href="/kmou/cm/cntnts/cntntsView.do?mi=3666&cntntsId=2300#sideContent" title="해양과학기술전문대학원">해양과학기술전문대학원</a>
+									<li class=""><a href="https://www.kmou.ac.kr/gsmf/main.do" target="_blank" title="해양금융대학원(새창)">해양금융대학원</a>
+									<li class=" common_unique_Id_3668 common_none_important_height_px_30"><a href="/spl/main.do?mi=3668#sideContent" target="_blank" title="글로벌물류대학원(새창)">글로벌물류대학원</a>
+									</ul>
+							</div>
+								</li>
+							<li><a href="http://www.kmou.ac.kr/sanhak/main.do#sideContent" target="_blank" title="연구·산학(새창)"><span>연구·산학</span></a>
+							<div class="box_gnb_1 bg04" style="visibility: visible; max-height: 0px;">
+							<h2>연구·산학</h2>
+								<ul class="ul_gnb_2 clearfix">
+									<li class=""><a href="/kmou/na/ntt/selectNttList.do?mi=4527&bbsId=10001922#sideContent" title="KMOU RESEARCH NEWS">KMOU RESEARCH NEWS</a>
+									<li class=""><a href="http://www.kmou.ac.kr/sanhak/main.do" target="_blank" title="산학협력단(새창)">산학협력단</a>
+									<li class="row"><a href="http://www.kmou.ac.kr/kmou/ad/dept/06/1024/view.do?mi=1408#sideContent" target="_blank" title="연구기관(새창)">연구기관</a>
+									<ul class="ul_gnb_3">
+										<li><a href="http://www.kmou.ac.kr/kmou/ad/dept/06/1024/view.do?mi=1408" title="연구소">연구소</a></li>
+										<li><a href="http://www.kmou.ac.kr/kmou/ad/dept/06/1024/view.do?mi=1408" title="센터">센터</a></li>
+										<li><a href="http://www.kmou.ac.kr/kmou/ad/dept/111/2184/view.do?mi=1408" title="사업단">사업단</a></li>
+									</ul>
+									<li class=""><a href="https://sanhak-erp.kmou.ac.kr" target="_blank" title="연구비 통합 관리시스템(새창)">연구비 통합 관리시스템</a>
+									<li class=" common_unique_Id_4535 common_none_important_height_px_102"><a href="https://safety.kmou.ac.kr/ushm/main/home.do" target="_blank" title="연구실안전관리시스템(새창)">연구실안전관리시스템</a>
+									<li class="row"><a href="https://www.kmou.ac.kr/kmou/rss/rnd/unRndRss.do?mi=4844#sideContent" title="R&amp;D알리미">R&amp;D알리미</a>
+									<ul class="ul_gnb_3">
+									<li class="publicMobileView"><a href="https://www.kmou.ac.kr/kmou/rss/rnd/unRndRss.do?mi=4844#sideContent" title="R&amp;D알리미">R&amp;D알리미</a>
+										<li><a href="/kmou/rss/rnd/unRndRss.do?mi=4844#sideContent" title="국가R&amp;D사업 공모(NTIS)">국가R&amp;D사업 공모(NTIS)</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=4845&bbsId=10002444#sideContent" title="기타과제공모">기타과제공모</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=4846&bbsId=10002445#sideContent" title="R&amp;D NEWS">R&amp;D NEWS</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=4847&bbsId=10002446#sideContent" title="R&amp;D 공모">R&amp;D 공모</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=5262&bbsId=10003464#sideContent" title="R&amp;D 정책 동향">R&amp;D 정책 동향</a></li>
+									</ul>
+									<li class=""><a href="https://blog.naver.com/3355ktf" target="_blank" title="기업재난관리사(행정안전부)(새창)">기업재난관리사(행정안전부)</a>
+									</ul>
+							</div>
+								</li>
+							<li><a href="/onestop/main.do?mi=1958#sideContent" target="_blank" title="대학생활(새창)"><span>대학생활</span></a>
+							<div class="box_gnb_1 bg05" style="visibility: visible; max-height: 0px;">
+							<h2>대학생활</h2>
+								<ul class="ul_gnb_2 clearfix">
+									<li class="row"><a href="/onestop/main.do?mi=1959#sideContent" target="_blank" title="학생서비스시스템(새창)">학생서비스시스템</a>
+									<ul class="ul_gnb_3">
+									<li class="publicMobileView"><a href="/onestop/main.do?mi=1959#sideContent" target="_blank" title="학생서비스시스템(새창)">학생서비스시스템</a>
+										<li><a href="/onestop/cm/cntnts/cntntsView.do?mi=74&amp;cntntsId=1755" target="_blank" title="학사안내(새창)">학사안내</a></li>
+										<li><a href="/onestop/cm/cntnts/cntntsView.do?mi=600&amp;cntntsId=1804" target="_blank" title="등록안내(새창)">등록안내</a></li>
+										<li><a href="/onestop/na/ntt/selectNttList.do?mi=2287&amp;bbsId=10000122" target="_blank" title="서식다운로드(새창)">서식다운로드</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/cm/cntnts/cntntsView.do?mi=1962&cntntsId=385#sideContent" target="_blank" title="정보서비스(새창)">정보서비스</a>
+									<ul class="ul_gnb_3">
+										<li><a href="https://tis.kmou.ac.kr" target="_blank" title="종합정보시스템(새창)">종합정보시스템</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1962&cntntsId=385#sideContent" title="증명서발급서비스">증명서발급서비스</a></li>
+										<li><a href="http://help.kmou.ac.kr/nc20/custlogin" target="_blank" title="원격지원서비스(새창)">원격지원서비스</a></li>
+										<li><a href="https://www.isic.co.kr/kmou/kmouIndex.jsp" target="_blank" title="국제학생증발급신청(새창)">국제학생증발급신청</a></li>
+										<li><a href="/kmou/ad/research/achievement.do?mi=1965&cntntsId=#sideContent" title="연구업적검색서비스">연구업적검색서비스</a></li>
+										<li><a href="http://library.kmou.ac.kr/" target="_blank" title="도서관(새창)">도서관</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1967&cntntsId=4156#sideContent" title="스마트캠퍼스 안내">스마트캠퍼스 안내</a></li>
+										<li><a href="https://lms.kmou.ac.kr" target="_blank" title="(신)KMOU-LMS(새창)">(신)KMOU-LMS</a></li>
+										<li><a href="https://cyberweb.kmou.ac.kr/" target="_blank" title="(구)KMOU-LMS(새창)">(구)KMOU-LMS</a></li>
+										<li><a href="https://tis.kmou.ac.kr/nxui/index.html?ui=simple#A10051400" target="_blank" title="수강편람(새창)">수강편람</a></li>
+										<li><a href="/kms/cm/cntnts/cntntsView.do?mi=750&amp;cntntsId=5212" target="_blank" title="동아리(새창)">동아리</a></li>
+										<li><a href="http://kmou.korus.ac.kr" target="_blank" title="KORUS(코러스)(새창)">KORUS(코러스)</a></li>
+										<li><a href="https://www.kmou.ac.kr/gsuite/" title="학생 WebMail">학생 WebMail</a></li>
+										<li><a href="https://cts.kmou.ac.kr/" title="Ocean-CTS">Ocean-CTS</a></li>
+										<li><a href="https://irsurvey.kmou.ac.kr:11433" title="온라인 설문조사 시스템">온라인 설문조사 시스템</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/cm/cntnts/cntntsView.do?mi=5480&cntntsId=6763#sideContent" title="시설물 사용 신청">시설물 사용 신청</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5480&cntntsId=6763#sideContent" title="학내 시설물 사용신청 사이트 안내">학내 시설물 사용신청 사이트 안내</a></li>
+										<li><a href="/kmou/rf/rentfclts/rentFcltsView.do?mi=5392#sideContent" title="운동장(인조잔디구장)">운동장(인조잔디구장)</a></li>
+										<li><a href="/kmou/rf/rentfclts/rentFcltsView.do?mi=5393#sideContent" title="풋살장">풋살장</a></li>
+									</ul>
+									<li class=""><a href="/kmou/cm/cntnts/cntntsView.do?mi=3893&cntntsId=2407#sideContent" title="보건진료실">보건진료실</a>
+									<li class="row common_unique_Id_2014 common_none_important_height_px_390"><a href="/kmou/cm/cntnts/cntntsView.do?mi=2015&cntntsId=830#sideContent" title="병역안내">병역안내</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=2015&cntntsId=830#sideContent" title="직장예비군">직장예비군</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=2016&cntntsId=831#sideContent" title="병무홍보">병무홍보</a></li>
+									</ul>
+									<li class=""><a href="/rotc/main.do?mi=2013#sideContent" target="_blank" title="학생군사교육단(새창)">학생군사교육단</a>
+									<li class=""><a href="/coop/main.do?mi=2024#sideContent" target="_blank" title="복지시설(새창)">복지시설</a>
+									<li class=""><a href="/kmou/cm/cntnts/cntntsView.do?mi=2026&cntntsId=836#sideContent" title="학생생활관">학생생활관</a>
+									<li class=""><a href="https://www.kmou.ac.kr/sedu/main.do" title="장애학생지원센터">장애학생지원센터</a>
+									<li class=" common_unique_Id_1583 common_none_important_height_px_30"><a href="/kmou/cm/cntnts/cntntsView.do?mi=1583&cntntsId=344#sideContent" title="승선생활관">승선생활관</a>
+									<li class="row"><a href="/kmou/cm/cntnts/cntntsView.do?mi=5487&cntntsId=7083#sideContent" title="새내기 길라잡이">새내기 길라잡이</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5487&cntntsId=7083#sideContent" title="2024년 대학생활안내">2024년 대학생활안내</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5263&cntntsId=6040#sideContent" title="2023년 대학생활안내">2023년 대학생활안내</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5283&cntntsId=6041#sideContent" title="2022년 대학생활안내">2022년 대학생활안내</a></li>
+											</ul>
+										</li>
+									</ul>
+							</div>
+								</li>
+							<li><a href="/kmou/na/ntt/selectNttList.do?mi=2032&bbsId=10373#sideContent" title="아치마당"><span>아치마당</span></a>
+							<div class="box_gnb_1 bg06" style="visibility: visible; max-height: 0px;">
+							<h2>아치마당</h2>
+								<ul class="ul_gnb_2 clearfix">
+									<li class="row"><a href="/kmou/na/ntt/selectNttList.do?mi=2032&bbsId=10373#sideContent" title="정보광장">정보광장</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=2032&bbsId=10373#sideContent" title="공지사항">공지사항</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=2033&bbsId=11786#sideContent" title="학사안내">학사안내</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=2034&bbsId=10375#sideContent" title="행사/세미나">행사/세미나</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=2035&bbsId=10378#sideContent" title="초빙/채용">초빙/채용</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=4933&bbsId=10002722#sideContent" title="취업정보">취업정보</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=5691&bbsId=10004365#sideContent" title="장학정보">장학정보</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=4415&bbsId=10001542#sideContent" title="코로나19 안내 자료">코로나19 안내 자료</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/na/ntt/selectNttList.do?mi=2041&bbsId=10379#sideContent" title="게시판">게시판</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=2041&bbsId=10379#sideContent" title="자유게시판">자유게시판</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=2042&bbsId=10792#sideContent" title="학생회게시판">학생회게시판</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=2043&bbsId=10386#sideContent" title="정보게시판">정보게시판</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=5434&bbsId=10003883#sideContent" title="KMOU 친절직원 추천">KMOU 친절직원 추천</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=2044&bbsId=11846#sideContent" title="청탁금지법 공지">청탁금지법 공지</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/na/ntt/selectNttList.do?mi=3911&bbsId=10873#sideContent" title="아치신문고">아치신문고</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=3911&bbsId=10873#sideContent" title="아치신문고">아치신문고</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=2052&bbsId=11594#sideContent" title="홈페이지 불편신고">홈페이지 불편신고</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=5018&bbsId=10002964#sideContent" title="알림톡 템플릿 신청 게시판">알림톡 템플릿 신청 게시판</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=5019&bbsId=10002965#sideContent" title="홈페이지 배너·팝업 신청 게시판">홈페이지 배너·팝업 신청 게시판</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=5455&bbsId=10003983#sideContent" title="홈페이지 현행화 요청 게시판">홈페이지 현행화 요청 게시판</a></li>
+									</ul>
+									<li class="row"><a href="/kmou/cm/cntnts/cntntsView.do?mi=2066&cntntsId=838#sideContent" title="정부포상대상자공개">정부포상대상자공개</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=2066&cntntsId=838#sideContent" title="정부포상대상자 공개안내">정부포상대상자 공개안내</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=2067&bbsId=10505#sideContent" title="정부포상대상자공개">정부포상대상자공개</a></li>
+									</ul>
+									<li class=" common_unique_Id_4143 common_none_important_height_px_198"><a href="/kmou/na/ntt/selectNttList.do?mi=4143&bbsId=10001001#sideContent" title="주요회의 결과 공개">주요회의 결과 공개</a>
+									<li class="row"><a href="/kmou/na/ntt/selectNttList.do?mi=5683&bbsId=11603#sideContent" title="청렴센터">청렴센터</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=5683&bbsId=11603#sideContent" title="공지사항">공지사항</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=3607&bbsId=11602#sideContent" title="부패신고방">부패신고방</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=3608&bbsId=10004345#sideContent" title="부패방지 제도개선 제안방">부패방지 제도개선 제안방</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=3609&bbsId=11605#sideContent" title="재정집행 공개방">재정집행 공개방</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=3610&bbsId=10001804#sideContent" title="감사정보 공개방">감사정보 공개방</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5001&cntntsId=5120#sideContent" title="공익신고">공익신고</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5684&cntntsId=7623#sideContent" title="외부강의 등 안내">외부강의 등 안내</a></li>
+										<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=5685&cntntsId=7606#sideContent" title="청렴·인권인식 자가진단">청렴·인권인식 자가진단</a></li>
+									</ul>
+									<li class=""><a href="http://www.kmou.ac.kr/shp/main.do" target="_blank" title="인권센터(새창)">인권센터</a>
+									<li class="row"><a href="/kmou/na/ntt/selectNttList.do?mi=2072&bbsId=11246#sideContent" title="자랑스러운 아치인상">자랑스러운 아치인상</a>
+									<ul class="ul_gnb_3">
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=2072&bbsId=11246#sideContent" title="연도별 수상자명단">연도별 수상자명단</a></li>
+										<li><a href="/kmou/na/ntt/selectNttList.do?mi=2073&bbsId=11247#sideContent" title="추천합니다">추천합니다</a></li>
+									</ul>
+									<li class=""><a href="/kmou/cm/cntnts/cntntsView.do?mi=2064&cntntsId=837#sideContent" title="시설서비스센터">시설서비스센터</a>
+									<li class=" common_unique_Id_2059 common_none_important_height_px_222"><a href="/counsel/main.do?mi=2059#sideContent" target="_blank" title="학생상담센터(새창)">학생상담센터</a>
+									</ul>
+							</div>
+								</li>
+
+							<li><a href="https://www.kmou.ac.kr/gfund/main.do" title="후원하기"><span>후원하기</span></a>
+							<div class="box_gnb_1 bg08" style="visibility: visible; max-height: 0px;">
+							<h2>후원하기</h2>
+								</div>
+							</li>
+                            <!--END-->                           
+                        </ul>
+                        <!-- //gnb --> 
+                    </nav>
+                </div>
+               <div class="box_header_1">
+			   <h1 class="logo"><a href="/kmou/main.do" title="한국해양대학교"><img src="/images/web/kmou/common/logo3.png" alt="한국해양대학교"></a></h1>
+					<!-- 웹 검색 -->
+					<div class="search_btn"><button id="web_search_btn" title="검색(축소)" type="button">검색영역 열기</button></div><div class="search"><h2 class="h0">검색</h2><div class="search_wrap"><form name="searchForm" class="clearfix" id="searchForm" action="https://search.kmou.ac.kr/front/Search.jsp" method="POST" target="_blank"><fieldset><legend>통합검색</legend><span class="cont_box clearfix"><label class="hid" for="total_search">검색어 입력</label><input name="qt" id="total_search" type="search" placeholder="검색어를 입력하세요"><input type="image" alt="검색" title="검색" src="/images/web/kmou/common/search_confirm.gif"></span></fieldset></form><div class="search_close"><button type="button" title="검색영역 닫기" >검색영역 닫기</button></div></div></div>
+					<!-- //웹 검색 -->
+
+                    <p class="btnMenu"><a href="/kmou/sitemap.do?mi=3517" title="사이트맵" ><img alt="사이트맵" src="/images/web/kmou/common/btn_menu_w.gif"></a></p>
+                </div>
+				<!-- 태블릿 검색 -->
+				
+				<!-- 태블릿 검색 -->
+
+            </header>
+        </div>
+    </div>
+    
+
+		    <!-- //header --> 
+		    <div class="box_mot_1">
+		    	<!-- quickService  -->
+					<div class="quickServiceWrap">
+						<div class="quickService">
+							<h2>사용자별<br>메뉴</h2>
+							<a href="" class="popOpen"><span class="txt">사용자별<br>메뉴</span></a>
+							<ul class="quick_list">
+								<li><a href=""><span class="img"><img src="/images/web/kmou/main/use_link01.png" alt=""></span><span class="txt">재학생</span></a></li>
+								<li><a href=""><span class="img"><img src="/images/web/kmou/main/use_link02.png" alt=""></span><span class="txt">교직원</span></a></li>
+								<li><a href=""><span class="img"><img src="/images/web/kmou/main/use_link03.png" alt=""></span><span class="txt">예비신입생</span></a></li>
+							</ul>
+							
+							<div class="quick_pop">
+								<div class="pop_wrap">
+									<h2>사용자별메뉴바로가기</h2>
+									<ul class="tab_list">
+										<li><a href="" class="on">재학생</a></li>
+										<li><a href="">교직원</a></li>
+										<li><a href="">예비신입생</a></li>
+										
+									</ul>
+									<div class="box">
+										<div class="qs1Box on" id="quick01">
+										
+											<ul>
+											 	<li><a href="https://tis.kmou.ac.kr" target="_blank" title="종합정보시스템 바로가기 (새창)" rel="noopener noreferrer">종합정보시스템</a></li>
+											 	<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1962&amp;cntntsId=386" title="증명서발급서비스 바로가기">증명서발급서비스</a></li>
+											 	<li><a href="http://help.kmou.ac.kr/nc20/custlogin?mi=1963" target="_blank" title="원격지원서비스 바로가기 (새창)" rel="noopener noreferrer">원격지원서비스</a></li>
+											 	<li><a href="http://www.isic.co.kr/hhu/hhuIndex.jsp?mi=1964" target="_blank" title="국제학생증발급신청 바로가기 (새창)" rel="noopener noreferrer">국제학생증발급신청</a></li>
+											 	<li><a href="/kmou/ad/research/achievement.do?mi=1965&amp;cntntsId=" title="연구업적검색서비스 바로가기">연구업적검색서비스</a></li>
+											 	<li><a href="http://library.kmou.ac.kr/?mi=1966" target="_blank" title="도서관 바로가기 (새창)" rel="noopener noreferrer">도서관</a></li>
+											 	<li><a href="/cle/main.do" target="_blank" title="교양교육원 바로가기 (새창)" rel="noopener noreferrer">교양교육원</a></li>
+											 	<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1967&amp;cntntsId=4156" title="스마트캠퍼스안내 바로가기 (새창)">스마트캠퍼스안내</a></li>
+											 	<li><a href="https://lms.kmou.ac.kr" target="_blank" title="(신)KMOU-LMS 바로가기 (새창)" rel="noopener noreferrer">(신)KMOU-LMS</a></li>
+											 	<li><a href="https://cyberweb.kmou.ac.kr" target="_blank" title="(구)KMOU-LMS 바로가기 (새창)" rel="noopener noreferrer">(구)KMOU-LMS</a></li>
+											 	<li><a href="https://tis.kmou.ac.kr/nxui/index.html?ui=simple#A10051400" target="_blank" title="수강편람 바로가기 (새창)" rel="noopener noreferrer">수강편람</a></li>
+											 	<li><a href="/gsuite" target="_blank" title="한국해양대학교 G Suite 바로가기 (새창)" onblur="javascript:closeFocus('tab01',1);" rel="noopener noreferrer">한국해양대학교 G Suite (학생 웹메일)</a></li>
+											 	<li><a href="/onestop/cm/cntnts/cntntsView.do?mi=74&amp;cntntsId=1755" target="_blank" title="학사일정(새창)" rel="noopener noreferrer">학사일정</a></li>
+											 	<li><a href="https://cts.kmou.ac.kr/" target="_blank" title="Ocean-CTS(학생역량통합관리시스템)(새창)" rel="noopener noreferrer">Ocean-CTS학생역량통합관리시스템</a></li>
+											 	<li><a href="/kmouctl/main.do" target="_blank" title="교수학습개발원(새창)" rel="noopener noreferrer">교수학습개발원</a></li>
+											 	<li><a href="https://safety.kmou.ac.kr/ushm/main/home.do" target="_blank" title="연구실안전관리시스템" rel="noopener noreferrer">연구실안전관리시스템</a></li>
+											</ul>
+										</div>
+										<div class="qs1Box" id="quick02">
+											<ul>
+											 	<li><a href="http://tis.kmou.ac.kr" target="_blank" title="종합정보시스템 바로가기 (새창)" rel="noopener noreferrer">종합정보시스템</a></li>
+											 	<li><a href="http://help.kmou.ac.kr" target="_blank" title="원격지원서비스 바로가기 (새창)" rel="noopener noreferrer">원격지원서비스</a></li>
+											 	<li><a href="/kmou/ad/research/achievement.do?mi=1965&amp;cntntsId=" title="연구업적검색서비스 바로가기">연구업적검색서비스</a></li>
+											 	<li><a href="http://library.kmou.ac.kr/?mi=1966" target="_blank" title="도서관 바로가기 (새창)" rel="noopener noreferrer">도서관</a></li>
+											 	<li><a href="/kmou/na/ntt/selectNttList.do?mi=2034&amp;bbsId=10375" title="행사/세미나 바로가기">행사/세미나</a></li>
+											 	<li><a href="/kmou/na/ntt/selectNttList.do?mi=2043&amp;bbsId=10386" title="정보 게시판 바로가기">정보 게시판</a></li>
+											 	<li><a href="https://kmou.korus.ac.kr" target="_blank" onblur="javascript:closeFocus('tab02',1);" title="KORUS 바로가기 (새창)" rel="noopener noreferrer">KORUS(코러스)</a></li>
+											 	<li><a href="/facultya/main.do" target="_blank" title="교수회 바로가기 (새창)" rel="noopener noreferrer">교수회</a></li>
+											 	<li><a href="/kmouctl/main.do" target="_blank" title="교수학습개발원(새창)" rel="noopener noreferrer">교수학습개발원</a></li>
+											 	<li><a href="https://irsurvey.kmou.ac.kr:11433" target="_blank" title="온라인 설문조사 시스템(새창)" rel="noopener noreferrer">온라인 설문조사 시스템</a></li>
+											 	<li><a href="https://lms.kmou.ac.kr" target="_blank" title="(신)KMOU-LMS 바로가기 (새창)" rel="noopener noreferrer">(신)KMOU-LMS</a></li>
+											 	<li><a href="https://cyberweb.kmou.ac.kr" target="_blank" title="(구)KMOU-LMS 바로가기 (새창)" rel="noopener noreferrer">(구)KMOU-LMS</a></li>
+											</ul>
+										</div>
+										<div class="qs1Box" id="quick03">
+											<ul>
+											 	<li><a href="/ipsi/main.do" target="_blank" title="입학정보 홈페이지 바로가기 (새창)" rel="noopener noreferrer">입학정보 홈페이지</a></li>
+											 	<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=23&amp;cntntsId=311" title="학교소개 바로가기 (새창)">학교소개</a></li>
+											 	<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1377&amp;cntntsId=317" title="학교현황 바로가기 (새창)">학교현황</a></li>
+											 	<li><a href="/UserFiles/web/kmou/Campus Map/Campus Map.html/UserFiles/web/kmou/Campus Map/Campus Map.html" onclick="window.open(this.href,'','width=1450,height=750,scrollbars=no,left=50,top=50'); return false;" title="캠퍼스맵 (새창)">캠퍼스맵</a></li>
+											 	<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1415&amp;cntntsId=324" title="VR로 탐방하기 바로가기">VR로 탐방하기</a></li>
+											 	<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1457&amp;cntntsId=330" title="홍보책자 바로가기">홍보책자</a></li>
+											 	<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1418&amp;cntntsId=325" title="오시는길 바로가기" onblur="javascript:closeFocus('tab03',1);">오시는길</a></li>
+											 	<li><a href="/kmouctl/main.do" target="_blank" title="교수학습개발원(새창)" rel="noopener noreferrer">교수학습개발원</a></li>
+											</ul>
+										</div>
+									</div>
+									<button class="popClose"><span class="hid">닫기</span><img src="/images/web/kmou/main/btn_close.png" alt=""></button>
+								</div>
+							</div>
+			
+						</div>
+					</div>
+	    		<!-- container -->
+	            <div id="container"> 
+					
+
+
+
+
+<style>
+	@media screen and (max-width: 480px)
+	.
+</style>
+
+<script>
+$(document).ready(function(){
+	//메인미니리스트 탭이동
+	$(".notice h2 a").click(function(){
+		$(".notice h2 a").removeClass("current");
+		$(this).addClass("current");		
+		$(".notice .notibox").removeClass("on");
+		$(".notice .list_box").removeClass("on");
+		var idx = $(".notice h2 a").index($(this));
+		$(".notice .notibox:eq("+idx+")").addClass("on");
+	});		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*$("#"+"popupNormal200").dialog({
+	    autoOpen: true,
+	    modal: false,
+	    resizeable : false,
+	    title: "2021학년도 한국해양대학교 총장님 신입생 환영사",
+	    width: "auto",
+	    height: "auto",
+	    dialogClass: "showpop ",	
+	    show:{
+	  		effect:"blind",
+	  		duration: 100
+	    },
+	    hide:{
+	   	 	effect:"blind",
+	   	 	duration: 100
+	    },						    
+	    position: {my:'left+0 top+0', at: 'left top' }
+	}).dialog('open'); */
+
+	
+});
+</script>	
+
+    <!-- visual -->
+    <div class="mainVisual">
+        <div class="mVisual">
+			<div class="swiper-container visual">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide" style="background-image: none;" data-swiper-autoplay="56000">
+							<video class="video-magazine" playsinline autoplay='autoplay' muted='muted' loop="loop">
+								<source src="https://www.kmou.ac.kr/data/2024_kmou_main_video_30_2.mp4" type="video/mp4">
+							</video>
+						</div>
+						
+							<div class="swiper-slide one "   style="background:url(https://www.kmou.ac.kr//upload/kmou/sm/_fa067d0a-ccb6-47f5-873c-dd0d9d9426311704178803614.png) center center / cover no-repeat; "><p class="txt1"><span>해양의 미래를 선도하는 플랫폼 대학</span></p></div>
+						
+							<div class="swiper-slide  two"   style="background:url(https://www.kmou.ac.kr//upload/kmou/sm/_497bcb88-707c-4a43-9877-4b4d535cd6cf1712899705992.jpg) center center / cover no-repeat; "><p class="txt1"><span>소통하는 해양 인재 육성 요람</span></p></div>
+						
+							<div class="swiper-slide  " thr  style="background:url(https://www.kmou.ac.kr//upload/kmou/sm/_52a9ca92-5765-40a2-92fd-d132d76fcd791695345118161.jpg) center center / cover no-repeat; "><p class="txt1"><span>해양을 삶의 터전으로 개척하는 글로벌 대학</span></p></div>
+						
+							<div class="swiper-slide  "  four style="background:url(https://www.kmou.ac.kr//upload/kmou/sm/_22b81c89-f1b4-44c7-bf78-e8476550d37d1695345467127.jpg) center center / cover no-repeat; "><p class="txt1"><span>미래 해양인재 양성 산실 KMOU</span></p></div>
+						
+					</div>
+					<div class="control_wrap">
+						<div class="swiper-pagination"></div>
+						<div class="volume_control">
+							<a href="#" class="volume_on"><img src="/images/web/kmou/main/vol_on.png"
+									alt=""><span>volume on</span></a>
+							<a href="#" class="volume_off on"><img src="/images/web/kmou/main/vol_off.png"
+									alt=""><span>volume off</span></a>
+						</div>
+						<div class="video_control">
+							<a href="#" class="video_play"><img src="/images/web/kmou/main/rollPlay.png" alt=""><span>video play</span></a>
+							<a href="#" class="video_pause on"><img src="/images/web/kmou/main/rollStop.png" alt=""><span>video pause</span></a>
+						</div>
+					</div>
+					<div class="control-buttons">
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+			</div>
+	
+		</div>
+		<!--visual slide-->
+    </div>
+    <!-- //visual --> 
+    
+    <!-- main_content -->
+    <div class="main_content">
+        <div class="M_con1"> 
+            <!-- KMOU NEWS -->
+            <div class="kmouNews">
+                <h2>KMOU <span>NEWS</span></h2>
+                <ul class="gall_list">
+					
+					<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351649&mi=1452" title="실습선 한나라호, 베트남 하이퐁 베트남 해양대학교와 친선 교류 행사 성료">
+						
+						<p class="img"><img src="/upload/kmou/10374/_210bc793-ad05-4b2b-9e2a-be2ef170eec81729650301481.jpg" alt="실습선 한나라호, 베트남 하이퐁 베트남 해양대학교와 친선 교류 행사 성료"></p>											 																						
+						<span class="date">2024-10-23</span> <span class="txt">실습선 한나라호, 베트남 하이퐁 베트남 해양대학교와 친선 교류 행사 성료</span> </a>
+					</li>
+					
+					<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351652&mi=1452" title="국제해양문제연구소, ‘해양치유 시민강좌’ 개최">
+						
+						<p class="img"><img src="/upload/kmou/10374/_4dccffe1-68c4-472f-ba76-d4a2f408c18d1729647646923.png" alt="국제해양문제연구소, ‘해양치유 시민강좌’ 개최"></p>											 																						
+						<span class="date">2024-10-23</span> <span class="txt">국제해양문제연구소, ‘해양치유 시민강좌’ 개최</span> </a>
+					</li>
+					                    
+                </ul>
+                <a href="/kmou/na/ntt/selectNttList.do?mi=1452&bbsId=10374" class="btn_more" title="KMOU NEWS 더보기">더보기</a></div>
+            <!-- //KMOU NEWS --> 
+ 
+ 			<!-- kmouEvents -->
+            <div class="kmouEvents" id ="kmouEvents">
+                <h2><a href="/kmou/na/ntt/selectNttList.do?mi=3653&bbsId=10000121" title="KMOU EVENTS 더보기">KMOU <span>EVENTS</span></a></h2>
+                <ul class="gall_list">
+				
+					<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351613&mi=3653" title="㈜해양드론기술 해상 드론배송 서비스 플랫폼 ‘NARAON’, 시민공원에서 푸드코트 음식물 나른다  ">
+						
+						<p class="img"><img src="/upload/kmou/10000121/_9945ca68-05c7-44b7-9594-0605306fb35e1729560966162.jpg" alt="㈜해양드론기술 해상 드론배송 서비스 플랫폼 ‘NARAON’, 시민공원에서 푸드코트 음식물 나른다  "></p>											 																						
+						<dl>
+							<dt>㈜해양드론기술 해상 드론배송 서비스 플랫폼 ‘NARAON’, 시민공원에서 푸드코트 음식물 나른다  </dt>
+							<dd class="date hid"><span class="day">22</span><span>24.10</span></dd>
+						</dl>
+					</a></li>
+				
+					<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351590&mi=3653" title="‘Offshore Korea 2024(국제조선해양플랜트전시회)’ 부산광역시 공동관 성황리 운영">
+						
+						<p class="img"><img src="/upload/kmou/10000121/_295f403c-758a-4ce3-bb61-8eff5fb09be01729559097436.jpg" alt="‘Offshore Korea 2024(국제조선해양플랜트전시회)’ 부산광역시 공동관 성황리 운영"></p>											 																						
+						<dl>
+							<dt>‘Offshore Korea 2024(국제조선해양플랜트전시회)’ 부산광역시 공동관 성황리 운영</dt>
+							<dd class="date hid"><span class="day">22</span><span>24.10</span></dd>
+						</dl>
+					</a></li>
+				
+					<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351482&mi=3653" title="국제교류본부, 국립대학육성사업 해외대학 초청 교환학생 해양도시지역 탐방 실시">
+						
+						<p class="img"><img src="/upload/kmou/10000121/_1268808c-904a-4633-bd3c-293a58dc02dd1729214689831.jpg" alt="국제교류본부, 국립대학육성사업 해외대학 초청 교환학생 해양도시지역 탐방 실시"></p>											 																						
+						<dl>
+							<dt>국제교류본부, 국립대학육성사업 해외대학 초청 교환학생 해양도시지역 탐방 실시</dt>
+							<dd class="date hid"><span class="day">18</span><span>24.10</span></dd>
+						</dl>
+					</a></li>
+					 
+                </ul>
+                <div class="nss_pg"> 
+	                <a href="#kmouEvents" rel="prev" class="prev" title="이전페이지">이전페이지</a>
+         			<a href="#kmouEvents" rel="stop" class="stop" title="정지">정지</a> 
+					<a href="#kmouEvents" rel="play" class="play" title="재생">재생</a> 
+	                <a href="#kmouEvents" rel="next" class="next" title="다음페이지">다음페이지</a> 
+                </div>
+			</div>
+			<!-- //kmouEvents -->
+ 			<!-- kmouPeople -->
+			<div class="kmouPeople" id ="kmouPeople">
+				<h2><a href="/kmou/na/ntt/selectNttList.do?bbsId=11873&mi=1453" title="KMOU PEOPLE">KMOU <span>PEOPLE</span></a></h2>
+				<ul class="gall_list">                     
+				
+					<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10350998&mi=1453" title="환경공학과 채규정 교수, '세계 상위 2% 과학자' 선정(World Top 2% Scientist)">
+						
+						<p class="img"><img src="/upload/kmou/11873/_2ba8473e-5ec0-44ec-8585-2d78eecf3cb71728027494541.jpg" alt="환경공학과 채규정 교수, '세계 상위 2% 과학자' 선정(World Top 2% Scientist)"></p>											 																						
+						<dl>
+						    <dt>환경공학과 채규정 교수, '세계 상위 2% 과학자' 선정(World Top 2% Scientist)</dt>
+							<dd class="date hid"><span class="day">04</span><span>24.10</span></dd>
+						</dl>
+					</a></li>   
+				
+					<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10350915&mi=1453" title="[해대人터뷰] Accelleron 한국 대표이사 성진우 동문">
+						
+						<p class="img"><img src="/upload/kmou/11873/_4da9342d-21cd-40c6-a6fe-081a80918a301727757921455.jpg" alt="[해대人터뷰] Accelleron 한국 대표이사 성진우 동문"></p>											 																						
+						<dl>
+						    <dt>[해대人터뷰] Accelleron 한국 대표이사 성진우 동문</dt>
+							<dd class="date hid"><span class="day">01</span><span>24.10</span></dd>
+						</dl>
+					</a></li>   
+				
+					<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10350840&mi=1453" title="연합 창업팀 FINDER, ‘기술사업화 비즈니스 모델 아이디어 경진대회’ 산업통상자원부 장관상 수상">
+						
+						<p class="img"><img src="/upload/kmou/11873/_fe489ef1-88a7-42d9-b478-ae9286e1c18b1727659921765.jpg" alt="연합 창업팀 FINDER, ‘기술사업화 비즈니스 모델 아이디어 경진대회’ 산업통상자원부 장관상 수상"></p>											 																						
+						<dl>
+						    <dt>연합 창업팀 FINDER, ‘기술사업화 비즈니스 모델 아이디어 경진대회’ 산업통상자원부 장관상 수상</dt>
+							<dd class="date hid"><span class="day">30</span><span>24.09</span></dd>
+						</dl>
+					</a></li>   
+				                        
+			    </ul>
+				<div class="nss_pg"> 									
+	                <a href="#kmouPeople" rel="prev" class="prev" title="이전페이지">이전페이지</a>
+         			<a href="#kmouPeople" rel="stop" class="stop" title="정지">정지</a> 
+					<a href="#kmouPeople" rel="play" class="play" title="재생">재생</a> 
+	                <a href="#kmouPeople" rel="next" class="next" title="다음페이지">다음페이지</a> 					
+				</div>
+ 			</div>            
+ 			<!-- //kmouPeople -->
+ 
+ 
+ 
+        </div>
+        <div class="M_con2"> 
+             <!-- 공지사항 -->
+            <div class="notice">
+                <h2 class="tit_1 titIcon"><a href="#notice" class="current" title="공지사항">공지사항</a></h2>
+                <div class="notibox  on">
+				
+					<div class="top_list"> 
+					<a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351660&mi=2032">
+						<p class="img"><img src="/images/web/kmou/main/notice_icon.gif" alt="게시판 아이콘"></p>
+						<dl>
+							<dt>BITS 부산공유대학「2024년도 부산 S.F 리빙랩 지역현안 공모전」안내</dt>
+							<dd></dd>
+							<dd class="date">2024.10.23</dd>
+					    </dl>
+				    </a> 
+					</div>
+				    
+					<div class="list_box">
+					    <ul>
+				    	
+					        <li>
+							
+					        
+					        
+					        <a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351659&mi=2032">BITS 부산공유대학「2024년도 부산 S.F 리빙랩 시민연구단 2기」모집 안내
+					        </a>
+					        
+					        
+							<span class="date">2024.10.23</span></li>
+						
+					        <li>
+							
+					        
+					        
+					        <a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351657&mi=2032">[한국해양과학기술원] 2025년 KIOST 동계방학 현장실습 프로그램 운영 안내
+					        </a>
+					        
+					        
+							<span class="date">2024.10.23</span></li>
+						
+					        <li>
+							
+					        
+					        
+					        <a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351656&mi=2032">DPG AI NoCode Hackathon(@광주) 2024 개최 안내 
+					        </a>
+					        
+					        
+							<span class="date">2024.10.23</span></li>
+						
+					        <li>
+							
+					        
+					        
+					        <a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351655&mi=2032">부산여성가족과 평생교육진흥원「2024년 청년드리머」모집 안내
+					        </a>
+					        
+					        
+							<span class="date">2024.10.23</span></li>
+						
+					        <li>
+							
+					        
+					        <a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351644&mi=2032&cnrsBbsId=10373">[졸업생대상]2024년 하반기 부산지역인재 장학금 "취업장려금" 신청 안내
+					        </a>
+					        
+					        
+					        
+							<span class="date">2024.10.23</span></li>
+						
+					        <li>
+							
+					        
+					        
+					        <a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351642&mi=2032">2024학년도 동계 계절학기 표준 현장실습학기제 실습기관 모집 안내
+					        </a>
+					        
+					        
+							<span class="date">2024.10.23</span></li>
+						
+					    </ul>		                    
+					</div>
+					<a href="/kmou/na/ntt/selectNttList.do?mi=2032&bbsId=10373" class="btn_more" title="공지사항 더보기">더보기</a> 
+				</div>
+                <h2 class="tit_2"><a href="#notice" onkeyup="javascript:focusChange(event, 'tit_2', 0);" title="학사안내">학사안내</a></h2>
+                <div class="notibox">
+               			               
+					<div class="top_list"> 
+					<a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351601&mi=2033">
+					    <p class="img"><img src="/images/web/kmou/main/notice_icon.gif" alt="게시판 아이콘"></p>
+					    <dl>
+					        <dt>제주대학교 2024학년도 겨울계절학기  교류수학 안내</dt>
+					        <dd>1. 신청대상: 이수성적의 총 평점평균이 2.5 이상이며, 징계받은 사실이 없는 재학생2. 신청기한:2024. 10. 29.(화)까지3. 제출서류 1) 국내외 타 대학 등 수학지원서 1부 2) 국내외 타 대학 등 수학계획서 및 학과장 추천서 1부 3) 성적증명서 1부4. 신청장소: 소속 학부(과) 사무실 첨부 1. 수학 안내문 1부. 2. 국내외 타 대학 등 수학지원서, 수학계획서 및 학과장 추천서 서식 각 1부.</dd>
+					        <dd class="date">2024.10.22</dd>
+					    </dl>
+					    </a> 
+					</div>
+				
+                    <div class="list_box">
+						<ul>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351595&mi=2033">경성대학교 2024학년도 겨울계절학기  교류수학 안내</a><span class="date">2024.10.22</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351616&mi=2033">부산외국어대학교 2024학년도 겨울계절학기  교류수학 안내</a><span class="date">2024.10.22</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351556&mi=2033">경상국립대학교 2024학년도 겨울계절학기 교류수학 안내</a><span class="date">2024.10.21</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351507&mi=2033">국립순천대학교 2024학년도 겨울계절학기  교류수학 안내</a><span class="date">2024.10.21</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351506&mi=2033">고려대학교 2024학년도 겨울계절학기  교류수학 안내</a><span class="date">2024.10.21</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351462&mi=2033">충남대학교 2024학년도 겨울계절학기  교류수학 안내</a><span class="date">2024.10.17</span></li>
+						
+						</ul>
+                    </div>
+                    <a href="/kmou/na/ntt/selectNttList.do?mi=2033&bbsId=11786" class="btn_more" title="학사안내 더보기">더보기</a></div>
+
+ 				<h2 class="tit_3"><a href="#notice" onkeyup="javascript:focusChange(event, 'tit_3', 0);" title="채용">채용</a></h2>
+                <div class="notibox">
+               			               
+					<div class="top_list"> 
+					<a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351545&mi=2035">
+					    <p class="img"><img src="/images/web/kmou/main/notice_icon.gif" alt="게시판 아이콘"></p>
+					    <dl>
+					        <dt>승선생활관 조교(생활지도관) 채용 공고</dt>
+					        <dd>승선생활관 조교(생활지도관) 채용 공고국립한국해양대학교 승선생활관에서 학생 지도 및 관리를 담당할 조교(생활지도관)를 채용하고자 아래와 같이 공고합니다./// 아 래 ///1. 모집인원 : 1명 (2024년 11월 발령 예정) 2. 지원자격 ① 4년제 해양계 대학을 졸업하고 학사학위 이상의 학력을 소지한 자. ② 대학 4년간 평균평점이 B(3.0) 이상인 자. ③ 대학 재학 중 정학 이상의 처벌을 받은 사실이 없는 자. ④ 병역을 필한 자(또는 면제자). ⑤ 상선 3급 면허(항해,기관) 이상의 소지자3. 서류제출기간 : 2024. 11. 4.(월) 17:00시까지 (우편접수 : 상기 기간 내 도착분에 한함)4. 면접 일정 : 면접시간은 개별 통지 예정 5. 제출서류 ① 응시원서 및 자기소개서, 개인정보 동의서 각 1부 ② 대학졸업증명서 및 성적증명서 각 1부 ③ 경력증명서 1부 ④ 기타 관련 자격증 사본 1부 (해기면허증, 동력수상레저기구조종면허증, 어학점수 등)6. 선발기준 ① 경력(30점) ② 성적(25점) ③ 자격증 및 공인 어학 능력(5점) ④ 면접 인성평가(40점)7. 제출 장소 및 기타문의 부산광역시 영도구 태종로 727(동삼동) 한국해양대학교 승선생활관 지도관실 (☎ 051-410-4193)2024. 10. 21.승 선 생 활 관 장</dd>
+					        <dd class="date">2024.10.21</dd>
+					    </dl>
+					    </a> 
+					</div>
+				
+                    <div class="list_box">
+						<ul>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351484&mi=2035">[RIS스마트항만물류사업단] 계약직원(행정원) 공개 채용 공고</a><span class="date">2024.10.18</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351392&mi=2035">RIS스마트항만물류사업단 공개경쟁채용 최종합격자 공고</a><span class="date">2024.10.16</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351324&mi=2035">국립한국해양대학교 입학본부 자체직원 공개경쟁 채용 공고</a><span class="date">2024.10.15</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351270&mi=2035">국립한국해양대학교 산학협력단 행정원 공개경쟁 채용시험 공고</a><span class="date">2024.10.14</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351284&mi=2035">4단계 BK21 대학원혁신지원사업 자체직원 공개경쟁 채용 최종합격자 공고</a><span class="date">2024.10.14</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351283&mi=2035">[학생생활관]2024년도 제4회 대학회계 계약직(사무원) 공개경쟁채용 서류전형 합격자 발표</a><span class="date">2024.10.14</span></li>
+						
+						</ul>
+                    </div>
+                    <a href="/kmou/na/ntt/selectNttList.do?mi=2035&bbsId=10378" class="btn_more" title="채용 더보기">더보기</a></div>
+                    
+<h2 class="tit_4"><a href="#notice" onkeyup="javascript:focusChange(event, 'tit_4', 0);" title="취업">취업</a></h2>
+<div class="notibox">
+   
+      <div class="top_list">
+         <a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351682&mi=4933">
+            <p class="img"><img src="/images/web/kmou/main/notice_icon.gif" alt="게시판 아이콘"></p>
+            <dl>
+               <dt>[㈜한일프로텍] 차량통신 모집부문별 연구직 추천 의뢰(~11. 7)</dt>
+               <dd>□ 기업소개한일프로텍은 2004년 설립하여 올해로 20년 넘게 차량통신 분야에서 활동하고 있습니다.오늘날 모든 차량들은 전자제어장치에 탑재된 소프트웨어에 의해 작동되고 있으며,차량통신기술은 이 장치들을 하나의 유기체로 통합하는 역할을 하고 있습니다.한일프로텍은 안전한 차량통신을 위해 통신 분석, 테스트, 진단, 개발 등 다양한 기술지원을 하고 있으며,국내외 차량통신 검증 및 개발 분야에서 선두주자 역할을 하고 있습니다.해당 직무에 관심과 열정을 가지고 차량통신 기술 발전에 기여할 참신한 인재를 찾고 있으며,한일프로텍과 함께 성장하고자 하시는 분은 지원해주시기 바랍니다.□ 모집부문(근무부서) 및 추천인원1.차량통신 검증 엔지니어 신입/경력 : 2명2.차량통신 검증시스템 개발 신입/경력 (차량통신검증개발팀) : 2명3. SW 개발 신입/경력 (SW개발팀) : 2명□ 관련학과(전공) : 공학계열 전공자 (전기전자공학,제어계측공학, 정보통신공학, 자동차공학 등)※ SW개발 채용만 컴퓨터공학/소프트웨어 전공자□ 졸업기준 : 졸업예정자 및 졸업자□ 자격요건1. 차량통신 검증 엔지니어 신입/경력ㆍ경력 : 신입/경력 (3년 이하)ㆍ학력 : 대졸 이상 (4년제 이상)ㆍ전공 : 공학계열 전공자 (전기전자공학, 제어계측공학, 정보통신공학, 자동차공학 등)ㆍ전공과목 Keyword : 디지털공학, 전력공학, 회로이론, 신호 및 시스템, 통신공학, 디지털 신호처리, 전자기학 등ㆍ해외여행 결격사유가 없는 자2. 차량통신 검증시스템 개발 신입/경력ㆍ경력 : 신입/경력 (5년 이하)ㆍ학력 : 대졸 이상 (4년제 이상ㆍ전공 : 공학계열 전공자 (전기전자공학, 제어계측공학, 정보통신공학, 자동차공학, 컴퓨터공학, 메카트로닉스, 디지털공학 등)ㆍ전공과목 Keyword : 디지털공학, 전력공학, 회로이론, 신호 및 시스템, 통신 공학, 디지털 신호처리, 전자기학 등ㆍ해외여행 결격사유가 없는 자3. SW 개발 신입/경력ㆍ경력 : 신입/경력 (10년 이하)ㆍ학력 : 대졸 이상 (4년제 이상)ㆍ전공 : 컴퓨터공학/소프트웨어 전공자[신입]ㆍ객체지향 프로그래밍 경험 보유자ㆍ오픈소스 사용 경험 보유자[경력]ㆍC# GUI Application 개발 경험자ㆍSW 아키텍처에 능통한 자□ 우대사항1. 차량통신 검증 엔지니어 신입/경력ㆍ차량 통신 이론 숙지자 (CAN, LIN, Diagnostic, Ethernet)ㆍOscilloscope, P/S, LCR meter 등 계측 장비 운용 경험자ㆍCANoe/CAPL, vTESTStudio, VTsystem 경험자ㆍ자동차 제조사 시험 기준 통신 검증 경험자ㆍ운전면허 소지자 ㆍ영어회화 가능자2. 차량통신 검증시스템 개발 신입/경력ㆍCANoe/CAPL, vTESTStudio, VTsystem, Python, C++, C#, MFC 사용 가능자ㆍOscilloscope, P/S, LCR meter 등 계측 장비 프로그램 제어 경험자ㆍ차량 통신 이론 숙지자 (CAN, LIN, Diagnostic, Ethernet)ㆍ차량 및 제어기 통신 검증 경험자ㆍ운전면허 소지자 ㆍ영어회화 가능자3. SW 개발 신입/경력ㆍ운전면허 소지자 ㆍ영어회화 가능자 ㆍ해외여행 결격사유가 없는 자[신입] ㆍ차량통신 지식 보유자[경력] ㆍDevExpress 경험자 ㆍ네트워크 개발 경험자 ㆍMulti Thread/Processing 지식 보유자□ 추천채용 접수 기한 : 2024. 11. 7.(목) 11:45까지□ 지원방법 : 접수기한 내 Ocean-CTS 지원하기□ 제출 서류- 서류전형 : 자사양식 입사지원서, 성적증명서, 졸업포트폴리오 (혹은 프로젝트 발표자료), 개인정보 동의서- 서류제출 : 파일명 작성 규칙 준수 요망 (ex. 한일프로텍_이력서_검증_홍길동)- 최종합격 : 입사구비서류 제출 (별도 안내)</dd>
+               <dd class="date">
+                  2024.10.23
+               </dd>
+            </dl>
+         </a>
+      </div>
+   
+   <div class="list_box">
+      <ul>
+         
+            <li>
+               <a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351674&mi=4933">[중소기업기술정보진흥원] 2024년 제7차 전문위원 채용 공고 (~11.5)</a>
+               <span class="date">
+                  2024.10.23
+               </span>
+            </li>
+         
+            <li>
+               <a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351673&mi=4933">[중소기업기술정보진흥원] 2024년 제3차 중소기업 R&D PM 채용공고 (~11.5)</a>
+               <span class="date">
+                  2024.10.23
+               </span>
+            </li>
+         
+            <li>
+               <a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351610&mi=4933">[경주시] 2024년 제4회 경주시 임기제공무원 임용 시험 (~11.4)</a>
+               <span class="date">
+                  2024.10.23
+               </span>
+            </li>
+         
+            <li>
+               <a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351643&mi=4933">[컴투스] 임원 공동비서 채용 공고 (~채용시)</a>
+               <span class="date">
+                  2024.10.23
+               </span>
+            </li>
+         
+            <li>
+               <a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351619&mi=4933">[한국로봇산업진흥원] 2024년 제3차 한국로봇산업진흥원 신규직원 채용 공고 (~11.5)</a>
+               <span class="date">
+                  2024.10.22
+               </span>
+            </li>
+         
+            <li>
+               <a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351617&mi=4933">[트윈스타] 마케팅 부문 외국인 유학생 추천 의뢰(~12. 30)</a>
+               <span class="date">
+                  2024.10.22
+               </span>
+            </li>
+         
+      </ul>
+   </div>
+   <a href="/kmou/na/ntt/selectNttList.do?bbsId=10002722&mi=4933" class="btn_more" title="취업 더보기">더보기</a>
+</div>
+                    <h2 class="tit_5"><a href="#notice" onkeyup="javascript:focusChange(event, 'tit_6', 0);" title="장학">장학</a></h2>
+                <div class="notibox">
+               			               
+					<div class="top_list"> 
+					<a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351644&mi=5691">
+					    <p class="img"><img src="/images/web/kmou/main/notice_icon.gif" alt="게시판 아이콘"></p>
+					    <dl>
+					        <dt>[졸업생대상]2024년 하반기 부산지역인재 장학금 "취업장려금" 신청 안내</dt>
+					        <dd>부산광역시2024년 하반기 부산지역인재장학금취업장려금지원을 다음과 같이 안내하오니,많은 지원 바랍니다.가.신청대상:- 부산지역인재 장학금생활장학금을 1회 이상 수령하고,부산지역 대학을 졸업한 자로,- 최종 학력졸업일로부터 2년 이내에 지역기업에 입사하여12개월 이상 근무하고 있으며,-부산시에 거주하고 있는자나.지원금액:취업장려금1인당150만원(1인1회만 지원 가능)다.접수일정:2024. 11. 1.(금), 18:00까지라.접 수 처:부산 청년플랫폼 홈페이지(https://www.busan.go.kr/young/busanscholarship01)-부산청년플랫폼 홈페이지 접속->생활안정 ->취업장려금->신청하기마.접수방법:개인별 접수(학교 추천 아님)바.기타 제출 서류 및 선발기준 등은[<span </dd>
+					        <dd class="date">2024.10.23</dd>
+					    </dl>
+					    </a> 
+					</div>
+				
+                    <div class="list_box">
+						<ul>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351632&mi=5691">2024학년도 2학기 「국가근로」 대체 장학생 모집·선발 공고-제5호</a><span class="date">2024.10.22</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351570&mi=5691">2024년 해운대구 장학기금 지원 안내</a><span class="date">2024.10.22</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351488&mi=5691">2024년 하반기 부산지역인재 장학금 신청 안내</a><span class="date">2024.10.18</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351470&mi=5691">2024년 HD현대희망재단 장학생 선발 안내</a><span class="date">2024.10.18</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351394&mi=5691">2024학년도 지역구청 교육멘토링사업 멘토 추가 모집 결연 결과</a><span class="date">2024.10.16</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351322&mi=5691">2024년 2학기 안산시 대학생 본인부담 등록금 반값지원 안내</a><span class="date">2024.10.15</span></li>
+						
+						</ul>
+                    </div>
+                    <a href="/kmou/na/ntt/selectNttList.do?mi=5691&bbsId=10004365" class="btn_more" title="장학 더보기">더보기</a></div>
+                       
+                <h2 class="tit_6"><a href="#notice" onkeyup="javascript:focusChange(event, 'tit_5', 0);" title="보도자료">보도자료</a></h2>
+                <div class="notibox">
+               			               
+					<div class="top_list"> 
+					<a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351648&mi=1455">
+					    <p class="img"><img src="/images/web/kmou/main/notice_icon.gif" alt="게시판 아이콘"></p>
+					    <dl>
+					        <dt>국립한국해양대 실습선 한나라호, 베트남 하이퐁 베트남 해양대학교와 친선 교류 행사 성료</dt>
+					        <dd>국립한국해양대 실습선 한나라호, 베트남 하이퐁 베트남 해양대학교와 친선 교류 행사 성료 베트남 하이퐁 베트남 해양대학교 방문을 통한 국제 교류 · 친선 활동 강화 국립한국해양대학교(총장 류동근)는 실습선 한나라호(선장 강민균)가 베트남 해양대학교(Vietnam Maritime University, VMU)와의 교류 행사를 성공적으로 마무리했다고 23일 밝혔다. 실습선 한나라호는 국립대학육성사업 일환으로 진행하고 있는 ‘2024학년도 2학기 원양항해’를 통해 세계 곳곳을 누비고 있으며 지난 17일 베트남 하이퐁에 입항했다. 실습선 한나라호를 환영하기 위해 베트남 해양대학교부총장 Nguyen Minh Duc, 국제협력처장 Nguyen Hong Van 및 VMU 재학생 20명 등과 베트남 한인회 관계자 7명이 직접 나와 입항을 맞이했다. 베트남 하이퐁에서 한나라호는 베트남 해양대학교 일행과 교류하는 시간을 가졌다. 베트남 해양대학교 부총장을 포함한 주요 관계자 일행은 실습선 한나라호의 최신 해기교육 시설을 둘러보고 향후 양 대학교 간 교류 증진에 대한 방안을 검토했다. 또한 이들은 한나라호에서 준비한 입항식 및 정찬을 함께하며 학교 홍보, 친선 교류 활동 등을 진행했다. 다음날인 18일에는 한나라호의 교직원 및 학생 150명이 베트남 해양대학교에 방문해 문화예술 교류 행사 및 친선 축구 경기를 펼치는 등 양 국가 학생들 간의 상호 교류를 통해 국제적 소양을 함양할 수 있는 다양한 활동을 진행하기도 했다. 뿐만 아니라 같은날 한나라호의 강민균 선장 및 임정훈 기관장, 학생 7명등 한나라호 대표단은 (구)한나라호에 방선했다. (구)한나라호는 1993년 국립한국해양대의 실습선으로 취항, 27년간 대한민국 해기사 양성에 활용되다가 2019년 5월 퇴역했다. 2018년 ‘한-베트남 정상회담’ 시 베트남 정상(故 쩐다이꽝 주석)의 요청으로 베트남 정부에 양여됐고, 현재는 베트남 해양대학교의 실습선(VMU VIET-HAN)으로 활용되고 있다. 한나라호 강민균 선장은 “이번 교류 행사를 통해 지난 20년간 이어져 온 베트남 해양대학교와 우리 대학의 우호 협력관계를 더욱 강화하는 소중한 기회가 되었다”며 “앞으로도 우리 학생들이 해양을 통해 각국의 미래세대들과 교류하며 국제적 소양을 갖춘 해양 전문인으로 성장할 수 있도록 실습선이 글로벌 캠퍼스로서 역할을 충실히 수행하겠다”고 말했다. 한편 국립한국해양대교 한나라호는 지난 2019년 건조된 아시아 최대 규모 실습선으로 전장 120m, 총톤수 9,196톤(t), 최대 속력</dd>
+					        <dd class="date">2024.10.23</dd>
+					    </dl>
+					    </a> 
+					</div>
+				
+                    <div class="list_box">
+						<ul>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351611&mi=1455">국립한국해양대 국제해양문제연구소, ‘해양치유 시민강좌’ 개최</a><span class="date">2024.10.23</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351592&mi=1455">국립한국해양대, ‘Offshore Korea 2024(국제조선해양플랜트전시회)’ 부산광역시 공동관 성황리 운영</a><span class="date">2024.10.22</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351549&mi=1455">국립한국해양대학교 실습선 한바다호, 필리핀 세부 비사야스 대학과 친선 교류 행사 성료</a><span class="date">2024.10.21</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351442&mi=1455">국립한국해양대, DYETEC연구원과 업무협약 체결</a><span class="date">2024.10.17</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351459&mi=1455">국립한국해양대 기술지주 자회사 해양드론기술, 중소벤처기업부 ‘팁스(TIPS)’ 선정</a><span class="date">2024.10.17</span></li>
+						
+							<li><a href="/kmou/na/ntt/selectNttInfo.do?nttSn=10351437&mi=1455">국립한국해양대, 2024년 해양인적사고 예방 세미나 개최  </a><span class="date">2024.10.17</span></li>
+						
+						</ul>
+                    </div>
+                    <a href="/kmou/na/ntt/selectNttList.do?mi=1455&bbsId=10000124" class="btn_more" title="보도자료 더보기">더보기</a></div>
+                    
+            </div>
+            <!-- //공지사항 --> 
+            
+            <div class="M_con2_R"> 
+                <!-- pop -->
+                <div class="popbox" id="popup01">
+                    <h2>POPUP</h2>
+                    <ul class="pop">
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+																					
+						<li>
+	
+	
+	
+								<a href="https://www.kmou.ac.kr/kmou/cm/cntnts/cntntsView.do?mi=1377&cntntsId=429" title="국립한국해양대학교 취업률 현황">
+								<img src="/upload/kmou/pm/_7d34c7f8-8254-4396-937a-b1da5ddfff671718253449761.png" alt="국립한국해양대학교 취업률 현황" />
+							</a>								
+								
+	
+		
+						</li>																				
+					
+					
+																					
+						<li>
+	
+	
+	
+								<a href="https://www.kmou.ac.kr/kmou/na/ntt/selectNttInfo.do?nttSn=10346020&mi=2032" title="2024년 공무원 전직 지원 컨설팅 참가 신청 안내">
+								<img src="/upload/kmou/pm/_26cc2394-607b-4a8f-8776-aa59940b5fae1716342646501.png" alt="2024년 공무원 전직 지원 컨설팅 참가 신청 안내" />
+							</a>								
+								
+	
+		
+						</li>																				
+					
+					
+																					
+						<li>
+	
+	
+	
+								<a href="https://www.kmou.ac.kr/myhaemi/sv/schdulView/schdulCalendarView.do?mi=5553" title="학생성장지원실 이달의 행사 알아보기">
+								<img src="/upload/kmou/pm/_fd7a1dd7-74ea-4b36-b929-1bf91d3662c61711087270306.png" alt="학생성장지원실 이달의 행사 알아보기" />
+							</a>								
+								
+	
+		
+						</li>																				
+					
+					
+					
+					
+					
+					
+																					
+						<li>
+	
+	
+	
+								<a href="https://www.kmou.ac.kr/kmouctl/sv/schdulView/schdulCalendarView.do?mi=4670" title="교수학습개발원 이달의 행사 알아보기">
+								<img src="/upload/kmou/pm/_c62afd4c-8824-4081-9754-b9f7852291c71663651474323.png" alt="교수학습개발원 이달의 행사 알아보기" />
+							</a>								
+								
+	
+		
+						</li>																				
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+																					
+						<li>
+	
+	
+	
+								<a href="http://1398.acrc.go.kr/case/ISGAcase" target="_blank" title="청탁금지법통합검색 (새창)">
+								<img src="/upload/kmou/pm/_efc4f285-80bc-4a3f-acad-b3f8a7d5acc71520591749364.gif" alt="청탁금지법통합검색" />
+							</a>								
+								
+	
+		
+						</li>																				
+					
+					
+                    </ul>
+                    <div class="control"> 
+						<a href="#popup01" rel="prev" class="prev" title="이전">이전</a> 
+						<a href="#popup01" rel="stop" class="stop" title="정지">정지</a> 
+						<a href="#popup01" rel="play" class="play" title="재생">재생</a> 
+						<a href="#popup01" rel="next" class="next" title="다음">다음</a>
+                    </div>
+                </div>
+                <!-- //pop -->                                    
+                <!-- kmouPop -->
+                <div class="kmouPop" id="popup02">
+					<h2>BANNER</h2>
+					<ul class="pop">
+					
+					
+					
+					
+					
+																					
+						<li>
+		
+			
+							<img src="/upload/kmou/pm/_5f46c142-a015-45e5-b3cd-590b6ed8f1781729144532910.png" usemap='#komu20241016_01' alt="제2학기 중간 강의 평가 안내" />
+							<map name="komu20241016_01"><area target="_parent" alt="공지사항" title="공지사항" href="https://www.kmou.ac.kr/kmou/na/ntt/selectNttInfo.do?nttSn=10351426&mi=2032&currPage=1" coords="2,2,333,155" shape="rect" /><area target="_parent" alt="평가 바로가기" title="평가 바로가기" href="https://tis.kmou.ac.kr" coords="11,164,146,191" shape="rect" /><area target="_parent" alt="모바일 앱 메뉴얼" title="모바일 앱 메뉴얼" href="/common/nttFileDownload.do?fileKey=08bfa1165fadc346445183cf73420ce4" coords="154,164,323,190" shape="rect" /></map>
+			
+			
+																									
+						</li>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+																					
+						<li>
+		
+			
+															
+							<a href="https://www.yeongdo1365.kr/" title="부산광역시영도구자원봉사센터 1365포털">
+								<img src="/upload/kmou/pm/_9dae54be-e087-4a4b-8e2c-b8a1020ab0d01689750242159.png" alt="부산광역시영도구자원봉사센터 1365포털" />
+							</a>								
+							
+			
+																									
+						</li>
+					
+					
+																					
+						<li>
+		
+			
+															
+							<a href="" title="「2022년 교육국제화역량 인증제」 인증대학 선정 알림">
+								<img src="/upload/kmou/pm/_6d057bd7-f28b-48f3-b110-8eca0098b1a01679273416858.png" alt="「2022년 교육국제화역량 인증제」 인증대학 선정 알림" />
+							</a>								
+							
+			
+																									
+						</li>
+					
+					
+					
+					
+																					
+						<li>
+		
+			
+															
+							<a href="http://www.estudy.or.kr/estudy2.0/kor/special/special_smartmedia.asp?MenuCode=M2014072109591400000" target="_blank" title="스마트미디어중독예방교육 (새창)">
+								<img src="/upload/kmou/pm/_6713bd5c-be7e-4aa4-b2ad-90c3676890411520592384451.gif" alt="스마트미디어중독예방교육" />
+							</a>								
+							
+			
+																									
+						</li>
+					
+					
+																					
+						<li>
+		
+			
+															
+							<a href="/etc/mv_safe.html" target="_blank" title="안전을위한약속 연구실안전 (새창)">
+								<img src="/upload/kmou/pm/_f328a7b7-b9c2-4f70-8333-f9ce4ee67e681520592363514.gif" alt="안전을위한약속 연구실안전" />
+							</a>								
+							
+			
+																									
+						</li>
+					
+					
+																					
+						<li>
+		
+			
+															
+							<a href="/coop/main.do" target="_blank" title="행복한대학으로가는길소비자생활협동조합 (새창)">
+								<img src="/upload/kmou/pm/_f757799e-118d-48d2-804c-6381c2f0ea581520592343793.gif" alt="행복한대학으로가는길소비자생활협동조합" />
+							</a>								
+							
+			
+																									
+						</li>
+					
+					
+																					
+						<li>
+		
+			
+							<img src="/upload/kmou/pm/_af38dd0f-4dd9-4ead-b8cf-cc831837b3b21520817018773.gif" usemap='#Map2' alt="청년인재+지역우수기업 희망이음 프로젝트" />
+							<map name="Map2"><area title="청년인재+지역우수기업 희망이음 프로젝트 홈페이지바로가기 (새창)" href="https://www.hopelink.kr/" shape="rect" coords="29,150,125,172" target="_blank" alt="홈페이지" /><area title="청년인재+지역우수기업 희망이음 프로젝트 안내문 보기" href="/common/nttFileDownload.do?fileKey=b5a5c58278732c2ada5d50a563b6d5d9" shape="rect" coords="28,125,124,147" target="_blank" alt="안내문보기" /><br></map>
+			
+			
+																									
+						</li>
+					
+					
+																					
+						<li>
+		
+			
+															
+							<a href="http://helpcall.mnd.mil.kr" target="_blank" title="국방헬프콜(SOS) (새창)">
+								<img src="/upload/kmou/pm/_47d185ea-562e-46d8-bb3e-bbbd303ac8701520592288562.gif" alt="국방헬프콜(SOS)" />
+							</a>								
+							
+			
+																									
+						</li>
+					
+					
+																					
+						<li>
+		
+			
+															
+							<a href="/kmou/na/ntt/selectNttList.do?mi=2052&bbsId=11594#sideContent" target="_blank" title="홈페이지불편신고 (새창)">
+								<img src="/upload/kmou/pm/_554cd981-bec5-466d-9f5a-e4dca5d8e4e41520592233359.gif" alt="홈페이지불편신고" />
+							</a>								
+							
+			
+																									
+						</li>
+					
+					
+																					
+						<li>
+		
+			
+															
+							<a href="http://www.work.go.kr/gangso" target="_blank" title="WORKNET 청년과함께성장하는강소기업 (새창)">
+								<img src="/upload/kmou/pm/_7b339188-61ab-4c36-94a5-c465f312b8671520592213761.gif" alt="WORKNET 청년과함께성장하는강소기업" />
+							</a>								
+							
+			
+																									
+						</li>
+					
+					
+																					
+						<li>
+		
+			
+															
+							<a href="/kmou/rf/rentfclts/rentFcltsView.do?mi=2025" title="시설물(운동장인조잔디구장)사용신청안내">
+								<img src="/upload/kmou/pm/_057e5226-daae-4ee2-a0db-c4bfb4964e8d1520592189201.gif" alt="시설물(운동장인조잔디구장)사용신청안내" />
+							</a>								
+							
+			
+																									
+						</li>
+					
+					
+																					
+						<li>
+		
+			
+															
+							<a href="/kmou/cm/cntnts/cntntsView.do?mi=14&cntntsId=304#sideContent" target="_blank" title="대학에말한다 (새창)">
+								<img src="/upload/kmou/pm/_7c540835-1f45-4e66-b416-4e808e13dc3d1520592167006.gif" alt="대학에말한다" />
+							</a>								
+							
+			
+																									
+						</li>
+					
+					
+					
+					
+					</ul>
+					<div class="control"> 
+						<a href="#popup02" rel="prev" class="prev" title="이전">이전</a> 
+						<a href="#popup02" rel="stop" class="stop" title="정지">정지</a> 
+						<a href="#popup02" rel="play" class="play" title="재생">재생</a> 
+						<a href="#popup02" rel="next" class="next" title="다음">다음</a>
+					</div>
+				</div>
+                <!--// kmouPop -->
+                <!-- ItsNavi -->
+                <!--210705 수정-->
+				<div class="ItsNavi"> 
+				 <!--211221 수정-->
+                                <ul>
+                                    <li class="Navi1"><a href="https://cts.kmou.ac.kr/" target="_blank" title="취ㆍ창업 종합지원 ITS Navi 시스템(다양한 프로그램을 통한 전문적 인재 양성) 바로가기 (새창)">
+                                            <dl>
+                                                <dt style="/* color:black; */font-weight:bolder;">Ocean-CTS</dt>
+                                                <dd>학생역량통합관리시스템</dd>
+                                            </dl>
+                                        </a>
+                                    </li>
+                                    <li class="Navi2">
+                                        <a href="https://www.kmou.ac.kr/cle/main.do" target="_blank" title="교양교육원">
+                                            <dl>
+                                                <dt><img alt="도서관 바로가기 (새창)" src="/images/web/kmou/main/ItsNavi_link02.png"></dt>
+                                                <dd>교양교육원</dd>
+                                            </dl>
+                                        </a></li>
+                                </ul>
+                                <!--//211221 수정-->
+                </div>
+				<!--//210705 수정-->
+                <!-- //ItsNavi --> 
+                <!-- Mlink1 -->
+                <div class="Mlink1">
+                    <ul>
+                        <li class="link1"><a href="http://library.kmou.ac.kr/?mi=1966" target="_blank" title="도서관 바로가기 (새창)">
+                            <dl>
+                                <dt><img src="/images/web/kmou/main/Mlink1_link01.png" alt="도서관 바로가기 (새창)"></dt>
+                                <dd>도서관</dd>
+                            </dl>
+                            </a>
+						</li>
+                        <li class="link2"><a href="/gfund/main.do" target="_blank" title="발전기금 바로가기 (새창)">
+                            <dl>
+                                <dt><img src="/images/web/kmou/main/Mlink1_link02.png" alt="발전기금 바로가기 (새창)" title="발전기금 바로가기 (새창)"></dt>
+                                <dd>발전기금</dd>
+                            </dl>
+                            </a>
+						</li>
+						<li class="link3"><a href="http://www.kmouaa.or.kr" target="_blank" title="총동창회 바로가기 (새창)">
+                            <dl>
+                                <dt><img src="/images/web/kmou/main/Mlink1_link03.png" alt="총동창회 바로가기 (새창)" title="총동창회 바로가기 (새창)"></dt>
+                                <dd>총동창회</dd>
+                            </dl>
+                            </a>
+						</li>
+                    </ul>
+                </div>
+                <!-- //Mlink1 --> 
+            </div>
+            
+			<!-- e-정보시스템 -->
+			<div class="e_infor">
+				<h2>e-정보시스템</h2>
+			    <ul>
+<!-- 			    	<li class="link1"><a href="http://help.kmou.ac.kr/nc20/custlogin?mi=1963" target="_blank" title="원격지원서비스 버로가기 (새창)"> 
+			        	<span><img src="/images/web/kmou/main/Einfor_link03.png" alt="원격지원서비스 버로가기 (새창)"></span>
+						<dl>
+							<dt>원격지원서비스</dt>
+							<dd>최적화된 <br>원격서비스 제공</dd>
+						</dl>
+			   		</a></li> -->
+			   		<li class="link2"><a href="/kmou/cm/cntnts/cntntsView.do?mi=1962&cntntsId=386" title="증명서발급서비스 버로가기 (새창)"> 
+						<span><img src="/images/web/kmou/main/Einfor_link02.png" alt="증명서발급서비스 버로가기 (새창)"></span>
+						<dl>
+							<dt>증명서발급서비스</dt>
+							<dd>나에게 필요한<br>증명서 발급 서비스</dd>
+						</dl>
+					</a></li>
+			   		<li class="link3"><a href="https://lms.kmou.ac.kr" target="_blank" title="(신)KMOU-LMS 바로가기 (새창)"> 
+			        	<span class="eicon"> <img src="/images/web/kmou/main/Einfor_link04.png" alt="(신)KMOU-LMS 바로가기 (새창)"></span>
+			  			<dl>
+							<dt>(신)KMOU-LMS</dt>
+							<dd>한국해양대학교<br>온라인 학습관리시스템</dd>
+					   </dl>
+					</a></li>		
+			        <li class="link4"><a href="http://tis.kmou.ac.kr" target="_blank" title="종합정보시스템 바로가기 (새창)"> 
+			        	<span><img src="/images/web/kmou/main/Einfor_link01.png" alt="종합정보시스템 바로가기 (새창)"></span>
+						<dl>
+							<dt>종합정보시스템</dt>
+							<dd>수강신청 및  성적<br>조회 서비스</dd>
+						</dl>
+					</a></li>
+					<li class="link4"><a href="/kmou/rss/rnd/unRndRss.do?mi=4844" title="R&amp;D알리미 바로가기"> 
+						<span class="eicon"> <img src="/images/web/kmou/main/Einfor_link10_02.png" alt="R&amp;D알리미 바로가기"></span>
+						<dl>
+							<dt>R&amp;D알리미</dt>
+							<dd>신규과제 공모<br/>정보서비스 제공(NTIS 등)</dd>
+						</dl>
+					</a></li>
+					<li class="link3"><a href="https://wmail.kmou.ac.kr/" target="_blank" title="WebMail 바로가기 (새창)"> 
+						<span><img src="/images/web/kmou/main/Einfor_link09.png" alt="WebMail 바로가기 (새창)"></span>
+						<dl>
+							<dt>WebMail</dt>
+							<dd>한국해양대학교<br>WebMail</dd>
+						</dl>
+					</a></li>
+					
+					<li class="link2"><a href="/kmou/ad/research/achievement.do?mi=1965" title="연구업적검색서비스 바로가기"> 
+						<span><img src="/images/web/kmou/main/Einfor_link06.png" alt="연구업적검색서비스 바로가기"></span>
+						<dl>
+							<dt>연구업적검색서비스</dt>
+							<dd>한국해양대학교<br>연구업적검색</dd>
+						</dl>
+					</a></li>
+					
+					
+					
+	   				<li class="link1"><a href="/global/main.do" target="_blank" title="국제교류본부 바로가기 (새창)"> 
+						<span><img src="/images/web/kmou/main/Einfor_link02.png" alt="국제교류본부 바로가기 (새창)"></span>
+						<dl>
+							<dt>국제교류본부</dt>
+							<dd>한국해양대학교<br>국제교류본부</dd>
+						</dl>
+					</a></li>	
+					<li class="link1"><a href="/kmou/cm/cntnts/cntntsView.do?mi=2064&cntntsId=837#sideContent" target="_blank" title="시설서비스센터 바로가기 (새창)"> 
+						<span><img src="/images/web/kmou/main/Einfor_link11.png" alt="시설서비스센터 바로가기 (새창)"></span>
+						<dl>
+							<dt>시설서비스센터</dt>
+							<dd>시설과<br>통합시설서비스 접수</dd>
+						</dl>
+					</a></li>
+									
+				</ul>
+			</div>
+			<!-- //e-정보시스템 -->   
+        </div>
+        <div class="M_con3">
+            <div class="M_con3_box"> 
+                <!--홍보 -->
+                <div class="advertise">
+                    <dl>
+                        <dt><span><img src="/images/web/kmou/main/img_pation.png" alt="열정"></span>그 해답을 찾다.</dt>
+                        <dd>우리 대학교는 1919년에 출범한 진해고등해원양성소를 모태로 1945년 해양입국(海洋立國)의 기치 아래 
+                            개교 이후 70년간 진리탐구, 문화창조, 인격도야의 숭고한 교육이념을 바탕으로 해운산업 등 
+                            해양분야의 전문인을 양성하여 왔으며, 이를 통하여 국가사회의 발전에 기여해 왔습니다.</dd>
+                    </dl>
+                    <ul class="btn_st">
+                     <li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1459&cntntsId=825"  class="ad_link1" title="홍보동영상 바로가기"><span>홍보동영상 <em>보러가기</em></span></a></li>
+                     <li><a href="/kmou/book/211/view.do?mi=1457" class="ad_link2" title="소식지 아치나래"><span>소식지 아치나래</span></a></li>                                                       
+                    </ul>
+                </div>
+                <!--//홍보 --> 
+                <!-- VR 캠퍼스 -->
+                <div class="vrCapm">
+                    <div class="vrCapm_box">
+                        <dl>
+                            <dt>캠퍼스 투어</dt>
+                            <dd>국립한국해양대학교는 대학 캠퍼스가 하나의 섬에 조성돼 있다는 특별함 외에도
+                                국내 유일의
+                                해양특성화 종합대학이란 차별성이 부각되고 있습니다.</dd>
+                        </dl>
+                        <ul>
+					<li><a href="/UserFiles/web/kmou/Campus Map/Campus Map.html" onclick="window.open(this.href,'','width=1450,height=750,scrollbars=no,left=50,top=50'); return false;" title="캠퍼스 지도 (새창)">캠퍼스 지도</a></li>
+                         <li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1414&cntntsId=322" title="캠퍼스 투어 / 해양진로체험 바로가기" >캠퍼스 투어 / 해양진로체험</a></li>
+                         <li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1415&cntntsId=3434" title="VR로 탐방하기 바로가기">VR로 탐방하기</a></li>
+                         <li><a href="/kmou/cm/cntnts/cntntsView.do?mi=1418&cntntsId=325" title="오시는길 바로가기">오시는길</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--// VR --> 
+            </div>
+        </div>
+        <!-- sns 바로가기 -->
+        <div class="snsLink">
+            <div class="snsLink_box">
+            	<ul>
+            	   <li> <a href="https://www.facebook.com/kmouofficial" target="_blank" class="icon1" title="페이스북 바로가기 (새창)"><span>페이스북</span> <img class="btnmore" src="/images/web/kmou/main/sns_more.png" alt="페이스북 바로가기"></a></li>
+            	    <li><a href="https://www.instagram.com/kmou_official/" target="_blank" class="icon2" title="인스타그램 바로가기 (새창)"><span>인스타그램</span> <img class="btnmore" src="/images/web/kmou/main/sns_more.png" alt="인스타그램 바로가기"></a></li>
+             	   <li><a href="https://blog.naver.com/k_maritime" target="_blank" class="icon3" title="블로그 바로가기 (새창)"><span>블로그</span> <img class="btnmore" src="/images/web/kmou/main/sns_more.png" alt="블로그 바로가기"></a></li>
+             	   <li class="last"><a href="https://www.youtube.com/channel/UCdejbqOGFDJWsQld3X47RRA" target="_blank" class="icon4" title="유튜브 바로가기 (새창)"><span>유튜브</span> <img class="btnmore" src="/images/web/kmou/main/sns_more.png" alt="유튜브 바로가기"></a></li>
+	</ul>
+            </div>
+        </div>
+        <!--// sns 바로가기 --> 
+        <!-- 배너존 -->
+        
+        <div class="bannerZoneWrap">
+            <div class="bannerZone" id="mbanner">
+                <h3>배너모음</h3>
+             <div class="control"> 
+              <a rel="prev" class="prev" href="#mbanner" title="이전배너보기">이전배너보기</a> 
+              <a rel="stop" class="stop" href="#mbanner" title="정지">정지</a> 
+              <a rel="play" class="play" href="#mbanner" title="재생">재생</a> 
+              <a rel="next" class="next" href="#mbanner" title="다음배너보기">다음배너보기</a> 
+              <a rel="list" class="list dialogAllBannerList" href="#mbanner" title="배너목록">배너목록</a>  
+             </div>                    
+	<ul class="obj">
+	
+		<li><a href="https://www.kmou.ac.kr/shp/cm/cntnts/cntntsView.do?mi=5046&cntntsId=5223" title="성희롱 · 성폭력 온라인상담">성희롱 · 성폭력 온라인상담</a></li>
+	
+		<li><a href="http://helpcall.mnd.mil.kr" target="_blank" title="국방헬프콜(1303)">국방헬프콜(1303)</a></li>
+	
+		<li><a href="/kmou/na/ntt/selectNttList.do?mi=2052&bbsId=11594#sideContent" target="_blank" title="홈페이지불편신고게시판">홈페이지불편신고게시판</a></li>
+	
+		<li><a href="http://www.work.go.kr/gangso" target="_blank" title="워크넷">워크넷</a></li>
+	
+		<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=14&cntntsId=304#sideContent" target="_blank" title="대학에바란다">대학에바란다</a></li>
+	
+		<li><a href="http://www.estudy.or.kr/estudy2.0/kor/special/special_smartmedia.asp?MenuCode=M2014072109591400000" target="_blank" title="스마트미디어">스마트미디어</a></li>
+	
+                 </ul>
+             </div>
+         </div>
+	<div id="dialogAllBannerList" class="bannerAllList ui-dialog-content ui-widget-content" style="display:none;">		
+	<div class="inner"> 			
+		<h1>전체 배너 보기</h1>			
+		<button title="close" class="btnClose" type="button">Close</button>
+		<div class="bannerList"> 				
+			<ul>
+			
+			<li><a href="https://www.kmou.ac.kr/shp/cm/cntnts/cntntsView.do?mi=5046&cntntsId=5223" title="성희롱 · 성폭력 온라인상담">성희롱 · 성폭력 온라인상담</a></li>
+			
+			<li><a href="http://helpcall.mnd.mil.kr" target="_blank" title="국방헬프콜(1303) (새창)">국방헬프콜(1303)</a></li>
+			
+			<li><a href="/kmou/na/ntt/selectNttList.do?mi=2052&bbsId=11594#sideContent" target="_blank" title="홈페이지불편신고게시판 (새창)">홈페이지불편신고게시판</a></li>
+			
+			<li><a href="http://www.work.go.kr/gangso" target="_blank" title="워크넷 (새창)">워크넷</a></li>
+			
+			<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=14&cntntsId=304#sideContent" target="_blank" title="대학에바란다 (새창)">대학에바란다</a></li>
+			
+			<li><a href="http://www.estudy.or.kr/estudy2.0/kor/special/special_smartmedia.asp?MenuCode=M2014072109591400000" target="_blank" title="스마트미디어 (새창)">스마트미디어</a></li>
+			
+				</ul>
+			</div>
+		</div>
+	</div>
+         <!-- // 배너존 --> 
+         
+         
+    </div>
+    <!-- //main_content --> 
+            
+	<!-- 팝업리스트 -->
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+		
+		<!-- 일반(유튜브) 선택 시 노출 -->
+		
+	
+	<!-- /팝업리스트 -->
+	<div id="popupNormal200" style="display:none;">
+		<a href="#">
+						<iframe src="https://www.youtube.com/embed/no0krN2EDLQ" width="550px" height="550px" scrolling="no" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+		</a>
+	</div>
+
+
+
+				</div>
+				<!-- //container -->	
+				<!-- footer -->
+				
+
+
+
+<footer>
+    <div class="area_footer">
+        <div class="box_footer">
+            <div class="footer_link clearfix">
+                <button type="button">KMOU Link</button>
+                <ul>
+                    <li class="point"><a href="/kmou/cm/cntnts/cntntsView.do?mi=3613&cntntsId=1818" title="개인정보처리방침">개인정보처리방침</a></li>
+<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=3512&cntntsId=989" title="이메일주소무단수집거부">이메일주소무단수집거부</a></li>
+<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=3601&cntntsId=1631" title="교직원행동강령">교직원행동강령</a></li>
+<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=3602&cntntsId=1635" title="부패방지클린신고센터">부패방지클린신고센터</a></li>
+<li><a href="/kmou/na/ntt/selectNttList.do?mi=3607&bbsId=11602" title="청렴센터" target="_self">청렴센터</a></li>
+<li><a href="/kmou/cm/cntnts/cntntsView.do?mi=3604&cntntsId=1638" title="고충처리반">고충처리반</a></li>
+<li><a href="/archives/cm/cntnts/cntntsView.do?mi=92&cntntsId=1506" title="행정정보공개(새창)" target="_blank">행정정보공개</a></li>
+<li><a href="/archives/cm/cntnts/cntntsView.do?mi=4297&cntntsId=3394" title="공공데이터안내" target="_self">공공데이터안내</a></li>
+<li><a href="/kmou/na/ntt/selectNttList.do?mi=2052&bbsId=11594" title="홈페이지불편신고">홈페이지불편신고</a></li>
+<li><a href="http://www.academyinfo.go.kr/pubinfo/pubinfo1600/doInit.do?schlId=0000033" title="대학정보공시(새창)" target="_blank">대학정보공시</a></li>
+
+                </ul>
+            </div>
+            <div class="box_info">
+                <address>(49112) 부산광역시 영도구 태종로 727(동삼동) 국립한국해양대학교 <span>전화 : 051-410-4114 / 팩스 : 051-405-5569</span></address>
+                <p class="copyright">Copyright (c) NATIONAL Korea Maritime & Ocean University. All rights reserved.</p>
+            </div>
+            <!--<a class="wa_mark" href="http://www.webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110"><img src="/images/web/kmou/common/wa_mark.png" alt="과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)" title="국가 공인 인증기관 : 웹와치"></a>--> <!-- 180712추가 -->
+        </div>
+    </div>
+</footer>
+   
+				<!-- // footer -->
+			</div>
+		</div>
+	</body>
 </html>
+
+
+
+
+
+
